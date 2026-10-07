@@ -34,6 +34,13 @@
       <select id="building"><option value="">All buildings</option></select>
     </label>
     <label>Min seats <input type="number" id="capacity" min="0" step="10" value="0"></label>
+    <label>Sort by
+      <select id="sort">
+        <option value="stretch">Longest open stretch</option>
+        <option value="ahead">Open longest from start</option>
+        <option value="day">Most free time all day</option>
+      </select>
+    </label>
     <button type="button" id="now">Now</button>
   </form>
 

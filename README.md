@@ -9,7 +9,9 @@ every room that is free for the whole window.
 ## Features
 
 - Pick a day, a start and end time, and optionally a building and a minimum number of seats.
-- Rooms free for the whole window are listed first, sorted by how long they stay free afterward.
+- Only rooms free for the whole window are listed. By default they're sorted by the **longest open
+  stretch**: the uninterrupted free block around your window, longest first. You can also sort by
+  how long a room stays open from your start time, or by total free time that day.
 - Each room has a day timeline: grey blocks are classes, and the green band is your window.
 - The **Now** button fills in the next hour for today.
 - A room only counts as free if its building is open for the whole window.

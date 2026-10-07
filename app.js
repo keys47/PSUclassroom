@@ -17,6 +17,22 @@ const fmt = (min) => {
   return `${((h + 11) % 12) + 1}:${m}${suffix}`;
 };
 
+const duration = (min) => {
+  const h = Math.floor(min / 60);
+  const m = min % 60;
+  return h ? (m ? `${h}h ${m}m` : `${h}h`) : `${m}m`;
+};
+
+// Higher score sorts first.
+const SORTS = {
+  // Length of the uninterrupted free block that contains the window.
+  stretch: (s) => s.freeUntil - s.freeFrom,
+  // How long the room stays free from the chosen start time.
+  ahead: (s, start) => s.freeUntil - start,
+  // Total class-free time while the building is open that day.
+  day: (s) => s.freeAllDay,
+};
+
 // Returns how a room relates to [start, end) on a given day, or null if the
 // building is closed for any part of the window or a class overlaps it.
 function roomStatus(building, room, day, start, end) {
@@ -33,9 +49,12 @@ function roomStatus(building, room, day, start, end) {
 
   const before = busy.filter(([, b]) => b <= start).pop();
   const after = busy.find(([a]) => a >= end);
+  const busyTotal = busy.reduce(
+    (sum, [a, b]) => sum + Math.max(0, Math.min(b, close) - Math.max(a, open)), 0);
   return {
     freeFrom: before ? before[1] : open,
     freeUntil: after ? after[0] : close,
+    freeAllDay: close - open - busyTotal,
     open,
     close,
     busy,
@@ -88,8 +107,9 @@ function render() {
       if (status) matches.push({ b, room, status });
     }
   }
-  // Rooms that stay free longest after the window come first.
-  matches.sort((x, y) => y.status.freeUntil - x.status.freeUntil
+  const score = SORTS[$("sort").value] ?? SORTS.stretch;
+  matches.sort((x, y) => score(y.status, start) - score(x.status, start)
+    || y.status.freeUntil - x.status.freeUntil
     || x.b.name.localeCompare(y.b.name)
     || x.room.name.localeCompare(y.room.name, undefined, { numeric: true }));
 
@@ -108,7 +128,8 @@ function render() {
     meta.className = "meta";
     meta.textContent = [
       room.capacity ? `${room.capacity} seats` : null,
-      `free ${fmt(status.freeFrom)}–${fmt(status.freeUntil)}`,
+      `${duration(status.freeUntil - status.freeFrom)} open (${fmt(status.freeFrom)}–${fmt(status.freeUntil)})`,
+      $("sort").value === "day" ? `${duration(status.freeAllDay)} free all day` : null,
     ].filter(Boolean).join(" · ");
     head.append(name, meta);
     li.append(head, timeline(status, start, end));
