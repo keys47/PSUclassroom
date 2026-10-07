@@ -36,8 +36,10 @@ and the times the room is in use.
 - `psu-feed.js` downloads that feed and converts it to the format below. The site calls it
   directly in the browser on every page load, so the data is always current.
 - If the map can't be reached, the site falls back to the saved copy in `data/rooms.json`
-  and shows a banner if that copy is from a different day. Refresh the copy with
-  `npm run fetch` (Node 18+).
+  and shows a banner if that copy is from a different day. A GitHub Actions workflow
+  (`.github/workflows/refresh-data.yml`) refreshes that copy every night at 12:30 am
+  Eastern and commits it. You can also run it from the Actions tab ("Run workflow") or
+  refresh it by hand with `npm run fetch` (Node 18+).
 
 What the feed doesn't have:
 

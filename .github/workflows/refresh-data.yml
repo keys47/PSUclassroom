@@ -1,0 +1,64 @@
+# Refreshes the saved copy of today's classroom schedules (data/rooms.json)
+# every night at 12:30 am Eastern. The site loads live data on its own; this
+# copy is only used when the Penn State map can't be reached.
+name: Refresh room data
+
+on:
+  schedule:
+    # Cron runs in UTC: 04:30 UTC is 12:30 am EDT, 05:30 UTC is 12:30 am EST.
+    - cron: "30 4 * * *"
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip the run that doesn't match daylight saving time
+        id: gate
+        run: |
+          zone=$(TZ=America/New_York date +%Z)
+          case "${{ github.event.schedule }}" in
+            "30 4 * * *") [ "$zone" = EDT ] && echo run=true >> "$GITHUB_OUTPUT" ;;
+            "30 5 * * *") [ "$zone" = EST ] && echo run=true >> "$GITHUB_OUTPUT" ;;
+            *) echo run=true >> "$GITHUB_OUTPUT" ;;
+          esac
+          true
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run
+        with:
+          node-version: 22
+
+      # The map may still show yesterday's schedule just after midnight, so
+      # retry until it's for today (up to about an hour).
+      - name: Download today's schedules
+        if: steps.gate.outputs.run
+        run: |
+          today=$(TZ=America/New_York date +%m/%d/%Y)
+          for attempt in 1 2 3 4 5 6 7; do
+            node scripts/fetch-rooms.mjs && grep -q "\"generated\": \"$today" data/rooms.json && exit 0
+            [ "$attempt" -lt 7 ] || break
+            echo "Feed isn't for $today yet (attempt $attempt); waiting 10 minutes."
+            sleep 600
+          done
+          echo "::warning::The map still isn't showing $today's schedule; saving what it has."
+
+      - name: Commit if changed
+        if: steps.gate.outputs.run
+        run: |
+          git diff --quiet data/rooms.json && { echo "No changes."; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rooms.json
+          git commit -m "Refresh room data for $(TZ=America/New_York date +%Y-%m-%d)"
+          git push
