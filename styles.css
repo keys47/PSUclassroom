@@ -1,0 +1,128 @@
+:root {
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --text: #1c1f24;
+  --muted: #5d6673;
+  --border: #dde1e6;
+  --accent: #1e407c;
+  --busy: #c9ced6;
+  --window: rgba(46, 160, 67, 0.35);
+  --window-edge: #2ea043;
+  --banner-bg: #fff4d6;
+  --banner-text: #6b4e00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111418;
+    --surface: #1a1e24;
+    --text: #e6e9ed;
+    --muted: #9aa3ae;
+    --border: #2d333b;
+    --accent: #8fb3ff;
+    --busy: #3b434e;
+    --window: rgba(63, 185, 80, 0.35);
+    --window-edge: #3fb950;
+    --banner-bg: #3a2f10;
+    --banner-text: #f2d48a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: 820px;
+  padding: 24px 16px 48px;
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1 { margin: 0; font-size: 1.6rem; color: var(--accent); }
+.sub { margin: 4px 0 16px; color: var(--muted); }
+
+.banner {
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background: var(--banner-bg);
+  color: var(--banner-text);
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  align-items: end;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+input, select, button {
+  font: inherit;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  min-width: 0;
+}
+
+button {
+  cursor: pointer;
+  background: var(--accent);
+  color: var(--surface);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+.summary { margin: 20px 0 8px; font-weight: 600; }
+
+.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+
+.room {
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.room-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+  margin-bottom: 8px;
+}
+
+.meta { color: var(--muted); font-size: 0.9rem; }
+
+.timeline {
+  position: relative;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.timeline span { position: absolute; top: 0; bottom: 0; }
+.timeline .busy { background: var(--busy); }
+.timeline .window {
+  background: var(--window);
+  border-left: 2px solid var(--window-edge);
+  border-right: 2px solid var(--window-edge);
+}
+
+footer { margin-top: 32px; font-size: 0.85rem; color: var(--muted); }

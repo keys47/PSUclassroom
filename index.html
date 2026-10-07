@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Classroom Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Open Classroom Finder</h1>
+    <p class="sub">Find general-purpose classrooms that are free to study in during a time window.</p>
+  </header>
+
+  <div id="sample-banner" class="banner" hidden>
+    Showing <strong>sample data</strong>, not real schedules. See the README for how to load real data.
+  </div>
+
+  <form id="filters" class="filters">
+    <label>Day
+      <select id="day">
+        <option value="mon">Monday</option>
+        <option value="tue">Tuesday</option>
+        <option value="wed">Wednesday</option>
+        <option value="thu">Thursday</option>
+        <option value="fri">Friday</option>
+        <option value="sat">Saturday</option>
+        <option value="sun">Sunday</option>
+      </select>
+    </label>
+    <label>From <input type="time" id="start" step="300" required></label>
+    <label>Until <input type="time" id="end" step="300" required></label>
+    <label>Building
+      <select id="building"><option value="">All buildings</option></select>
+    </label>
+    <label>Min seats <input type="number" id="capacity" min="0" step="10" value="0"></label>
+    <button type="button" id="now">Now</button>
+  </form>
+
+  <main>
+    <p id="summary" class="summary" aria-live="polite"></p>
+    <ul id="results" class="results"></ul>
+  </main>
+
+  <footer>
+    <span id="source"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
