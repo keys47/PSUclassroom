@@ -62,6 +62,7 @@ What the feed doesn't have:
       "rooms": [
         {
           "name": "064",
+          "url": "https://map.psu.edu/?id=1134#!m/11341006", // optional, links the room name
           "capacity": 40,                      // optional
           "hours": { "wed": ["07:00", "23:00"] }, // optional, overrides the building's
           "busy": { "wed": [["09:05", "10:20"], ["11:15", "12:05"]] }
