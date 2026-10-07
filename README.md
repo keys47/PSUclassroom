@@ -28,23 +28,43 @@ You can also host it for free with GitHub Pages: Settings → Pages → deploy f
 
 ## Data
 
-The site reads `data/rooms.json`:
+The schedules come from the same feed as the **Classroom Availability** layer on the
+[Penn State map](https://map.psu.edu/?id=1134). That map runs on Concept3D, and the layer
+lists about 380 University Park classrooms. For each room it gives today's building hours
+and the times the room is in use.
+
+- `psu-feed.js` downloads that feed and converts it to the format below. The site calls it
+  directly in the browser on every page load, so the data is always current.
+- If the map can't be reached, the site falls back to the saved copy in `data/rooms.json`
+  and shows a banner if that copy is from a different day. A GitHub Actions workflow
+  (`.github/workflows/refresh-data.yml`) refreshes that copy every night at 12:30 am
+  Eastern and commits it. You can also run it from the Actions tab ("Run workflow") or
+  refresh it by hand with `npm run fetch` (Node 18+).
+
+What the feed doesn't have:
+
+- **Other days.** The map only publishes today's schedule, so the day picker only offers today.
+- **Seat counts.** The "Min seats" filter is hidden unless the data includes `capacity`.
+
+`data/rooms.json` format:
 
 ```jsonc
 {
   "sample": false,                 // true shows the "sample data" banner
   "source": "Penn State map",      // shown in the footer
-  "generated": "2026-10-07",
+  "generated": "10/07/2026 10:50 AM EDT",
+  "days": ["wed"],                 // days the data covers; limits the day picker
   "buildings": [
     {
-      "id": "1134",
-      "name": "Building name",
-      "hours": { "mon": ["07:00", "22:00"], "sat": null, ... },  // null = closed
+      "id": "willard-bldg",
+      "name": "Willard Bldg",
+      "hours": { "wed": ["07:00", "23:00"] },  // null = closed
       "rooms": [
         {
-          "name": "101",
-          "capacity": 40,
-          "busy": { "mon": [["08:00", "08:50"], ["10:10", "11:00"]], ... }
+          "name": "064",
+          "capacity": 40,                      // optional
+          "hours": { "wed": ["07:00", "23:00"] }, // optional, overrides the building's
+          "busy": { "wed": [["09:05", "10:20"], ["11:15", "12:05"]] }
         }
       ]
     }
@@ -52,21 +72,6 @@ The site reads `data/rooms.json`:
 }
 ```
 
-**The file in the repo is generated sample data, not real schedules.** The
-cloud environment that built this site couldn't reach `map.psu.edu`, so the
-real API hasn't been wired up yet.
-
-### Finding the real data source
-
-Run this on your own computer:
-
-```sh
-npm install
-npm run capture
-```
-
-A browser opens on the Penn State map. Turn on the **Classroom Availability**
-filter and click a few buildings and rooms, then close the window. Every JSON
-response the map loaded is saved to `captures/`, and `captures/index.json`
-lists the URLs. Those URLs show which API serves the room schedules. From there,
-a script can fetch them and convert them into `data/rooms.json`.
+`npm run capture` (needs `npm install`) opens the map in a browser and saves every JSON
+response it loads to `captures/`. It's useful if the map's feed changes and
+`psu-feed.js` needs updating.

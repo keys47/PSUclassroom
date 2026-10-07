@@ -1,4 +1,4 @@
-"use strict";
+import { fetchRooms } from "./psu-feed.js";
 
 const DAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 const $ = (id) => document.getElementById(id);
@@ -36,7 +36,7 @@ const SORTS = {
 // Returns how a room relates to [start, end) on a given day, or null if the
 // building is closed for any part of the window or a class overlaps it.
 function roomStatus(building, room, day, start, end) {
-  const hours = building.hours?.[day];
+  const hours = room.hours?.[day] ?? building.hours?.[day];
   if (!hours) return null;
   const open = toMin(hours[0]);
   const close = toMin(hours[1]);
@@ -139,7 +139,9 @@ function render() {
 
 function setNow() {
   const d = new Date();
-  $("day").value = DAYS[d.getDay()];
+  const today = DAYS[d.getDay()];
+  const days = [...$("day").options].map((o) => o.value);
+  $("day").value = days.includes(today) ? today : days[0];
   const start = Math.floor((d.getHours() * 60 + d.getMinutes()) / 5) * 5;
   const end = Math.min(start + 60, 23 * 60 + 55);
   const hhmm = (m) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
@@ -148,12 +150,37 @@ function setNow() {
   render();
 }
 
+// Live schedules from the Penn State map, or the saved copy if that fails.
+async function load() {
+  try {
+    return { ...(await fetchRooms()), live: true };
+  } catch (err) {
+    console.warn("Live data unavailable, using saved copy:", err);
+    const res = await fetch("data/rooms.json");
+    return res.json();
+  }
+}
+
 async function init() {
-  const res = await fetch("data/rooms.json");
-  data = await res.json();
+  data = await load();
 
   $("sample-banner").hidden = !data.sample;
-  $("source").textContent = `Data: ${data.source ?? "unknown"}${data.generated ? ` (updated ${data.generated})` : ""}`;
+  $("source").textContent = `Data: ${data.source ?? "unknown"}`
+    + (data.generated ? ` (${data.live ? "live, " : "saved copy, "}updated ${data.generated})` : "");
+
+  // The Penn State feed only covers today, so only offer the days we have.
+  if (data.days) {
+    for (const opt of [...$("day").options]) {
+      if (!data.days.includes(opt.value)) opt.remove();
+    }
+  }
+  $("day").disabled = $("day").options.length < 2;
+  $("stale-banner").hidden = $("day").options.length !== 1
+    || $("day").options[0].value === DAYS[new Date().getDay()];
+
+  // The feed has no seat counts; hide that filter when no room has one.
+  $("capacity").closest("label").hidden =
+    !data.buildings.some((b) => b.rooms.some((r) => r.capacity));
 
   const select = $("building");
   for (const b of [...data.buildings].sort((x, y) => x.name.localeCompare(y.name))) {

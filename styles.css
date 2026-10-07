@@ -42,6 +42,10 @@ body {
 h1 { margin: 0; font-size: 1.6rem; color: var(--accent); }
 .sub { margin: 4px 0 16px; color: var(--muted); }
 
+[hidden] {
+  display: none !important;
+}
+
 .banner {
   padding: 10px 14px;
   margin-bottom: 16px;
