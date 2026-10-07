@@ -12,6 +12,9 @@ const MAP = "1134";
 const KEY = "0001085cc708b9cef47080f064612ca5";
 const CATEGORIES = [52156, 52157]; // Available, Unavailable
 
+// Opens a room's own page on the map, with its hours and class times.
+const roomUrl = (id) => `https://map.psu.edu/?id=${MAP}#!m/${id}`;
+
 const DAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 
 // "7:00 am" or "09:05:00 pm" -> "HH:MM"
@@ -50,7 +53,7 @@ function parseRoom(loc) {
     .filter(([a, b]) => a && b);
   const updated = html.match(/Last Updated: <\/b>([^<]+)/)?.[1]?.trim();
   const [building, room] = splitName(loc.name);
-  return { building, room, hours: hours?.every(Boolean) ? hours : null, busy, updated };
+  return { building, room, url: loc.id ? roomUrl(loc.id) : null, hours: hours?.every(Boolean) ? hours : null, busy, updated };
 }
 
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -81,7 +84,7 @@ export async function fetchRooms() {
     if (r.hours && (!h || r.hours[0] < h[0] || r.hours[1] > h[1])) {
       b.hours[day] = h ? [r.hours[0] < h[0] ? r.hours[0] : h[0], r.hours[1] > h[1] ? r.hours[1] : h[1]] : r.hours;
     }
-    b.rooms.push({ name: r.room, hours: { [day]: r.hours }, busy: { [day]: r.busy } });
+    b.rooms.push({ name: r.room, url: r.url, hours: { [day]: r.hours }, busy: { [day]: r.busy } });
   }
 
   for (const b of buildings.values()) {

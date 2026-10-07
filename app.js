@@ -123,7 +123,17 @@ function render() {
     const head = document.createElement("div");
     head.className = "room-head";
     const name = document.createElement("strong");
-    name.textContent = `${b.name} ${room.name}`;
+    if (room.url) {
+      const link = document.createElement("a");
+      link.href = room.url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.title = "Open on the Penn State map";
+      link.textContent = `${b.name} ${room.name}`;
+      name.append(link);
+    } else {
+      name.textContent = `${b.name} ${room.name}`;
+    }
     const meta = document.createElement("span");
     meta.className = "meta";
     meta.textContent = [

@@ -112,6 +112,16 @@ button {
 
 .meta { color: var(--muted); font-size: 0.9rem; }
 
+.room-head a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.room-head a:hover,
+.room-head a:focus-visible {
+  text-decoration: underline;
+}
+
 .timeline {
   position: relative;
   height: 10px;
