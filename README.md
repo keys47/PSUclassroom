@@ -1,4 +1,4 @@
-# Open Classroom Finder
+# PSU Room Finder
 
 A small static website for finding Penn State general-purpose classrooms that are
 free to study in during a time window. It pulls together the same information
@@ -40,6 +40,9 @@ and the times the room is in use.
   (`.github/workflows/refresh-data.yml`) refreshes that copy every night at 12:30 am
   Eastern and commits it. You can also run it from the Actions tab ("Run workflow") or
   refresh it by hand with `npm run fetch` (Node 18+).
+
+Buildings listed in `EXCLUDED_BUILDINGS` in `psu-feed.js` are left out. Right now that's
+East Classroom Building, whose rooms are on the map but aren't usable for drop-in study.
 
 What the feed doesn't have:
 

@@ -12,6 +12,10 @@ const MAP = "1134";
 const KEY = "0001085cc708b9cef47080f064612ca5";
 const CATEGORIES = [52156, 52157]; // Available, Unavailable
 
+// Buildings left out of the results. East Classroom Building rooms are
+// listed on the map but aren't usable for drop-in study.
+const EXCLUDED_BUILDINGS = ["East Classroom Building"];
+
 // Opens a room's own page on the map, with its hours and class times.
 const roomUrl = (id) => `https://map.psu.edu/?id=${MAP}#!m/${id}`;
 
@@ -67,7 +71,7 @@ export async function fetchRooms() {
   }
   if (!locations.length) throw new Error("Penn State map returned no rooms");
 
-  const rooms = locations.map(parseRoom);
+  const rooms = locations.map(parseRoom).filter((r) => !EXCLUDED_BUILDINGS.includes(r.building));
   // "10/07/2026 10:50 AM EDT": the date the schedules are for.
   const stamp = rooms.find((r) => r.updated)?.updated ?? "";
   const [, mm, dd, yyyy] = stamp.match(/^(\d{2})\/(\d{2})\/(\d{4})/) ?? [];
