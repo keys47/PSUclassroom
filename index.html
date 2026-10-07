@@ -16,6 +16,10 @@
     Showing <strong>sample data</strong>, not real schedules. See the README for how to load real data.
   </div>
 
+  <div id="stale-banner" class="banner" hidden>
+    Couldn't reach the Penn State map, so these schedules are from an <strong>older saved copy</strong>.
+  </div>
+
   <form id="filters" class="filters">
     <label>Day
       <select id="day">
@@ -53,6 +57,6 @@
     <span id="source"></span>
   </footer>
 
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
