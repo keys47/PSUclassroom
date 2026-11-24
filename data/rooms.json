@@ -1,16 +1,16 @@
 {
  "sample": false,
  "source": "Penn State map (map.psu.edu)",
- "generated": "11/23/2026 11:10 AM EST",
+ "generated": "11/24/2026 11:00 AM EST",
  "days": [
-  "mon"
+  "tue"
  ],
  "buildings": [
   {
    "id": "ag-engineering",
    "name": "Ag Engineering",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -18,59 +18,54 @@
    "rooms": [
     {
      "name": "113",
-     "url": "https://map.psu.edu/?id=1134#!m/11341200",
+     "url": "https://map.psu.edu/?id=1134#!m/11341209",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "115",
-     "url": "https://map.psu.edu/?id=1134#!m/11341201",
+     "url": "https://map.psu.edu/?id=1134#!m/11341210",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "09:00",
-        "10:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "121",
-     "url": "https://map.psu.edu/?id=1134#!m/11341202",
+     "url": "https://map.psu.edu/?id=1134#!m/11341211",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "261",
-     "url": "https://map.psu.edu/?id=1134#!m/11341203",
+     "url": "https://map.psu.edu/?id=1134#!m/11341212",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -79,7 +74,7 @@
    "id": "ag-science-industries",
    "name": "Ag Science & Industries",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -87,85 +82,100 @@
    "rooms": [
     {
      "name": "011",
-     "url": "https://map.psu.edu/?id=1134#!m/11341204",
+     "url": "https://map.psu.edu/?id=1134#!m/11341213",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "18:00",
-        "20:00"
+        "08:00",
+        "09:00"
        ]
       ]
      }
     },
     {
      "name": "016",
-     "url": "https://map.psu.edu/?id=1134#!m/11341205",
+     "url": "https://map.psu.edu/?id=1134#!m/11341214",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "16:30",
+        "17:55"
+       ]
+      ]
      }
     },
     {
      "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341206",
+     "url": "https://map.psu.edu/?id=1134#!m/11341215",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341207",
+     "url": "https://map.psu.edu/?id=1134#!m/11341216",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341208",
+     "url": "https://map.psu.edu/?id=1134#!m/11341217",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "10:35",
+        "11:50"
+       ]
+      ]
      }
     },
     {
      "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341209",
+     "url": "https://map.psu.edu/?id=1134#!m/11341218",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "18:00",
+        "21:30"
+       ]
+      ]
      }
     }
    ]
@@ -174,7 +184,7 @@
    "id": "althouse-lab",
    "name": "Althouse Lab",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "21:00"
     ]
@@ -182,15 +192,20 @@
    "rooms": [
     {
      "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341296",
+     "url": "https://map.psu.edu/?id=1134#!m/11341305",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "21:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "17:30",
+        "20:30"
+       ]
+      ]
      }
     }
    ]
@@ -199,7 +214,7 @@
    "id": "animal-veterinary-and-biomedical-science-bldg",
    "name": "Animal, Veterinary, and Biomedical Science Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "21:00"
     ]
@@ -207,15 +222,20 @@
    "rooms": [
     {
      "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341210",
+     "url": "https://map.psu.edu/?id=1134#!m/11341219",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "21:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "16:30",
+        "18:00"
+       ]
+      ]
      }
     }
    ]
@@ -224,7 +244,7 @@
    "id": "armsby-bldg",
    "name": "Armsby Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -232,20 +252,34 @@
    "rooms": [
     {
      "name": "215",
-     "url": "https://map.psu.edu/?id=1134#!m/11341170",
+     "url": "https://map.psu.edu/?id=1134#!m/11341178",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "17:30",
-        "19:30"
-       ]
-      ]
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "barron-innovation-hub",
+   "name": "Barron Innovation Hub",
+   "hours": {
+    "tue": null
+   },
+   "rooms": [
+    {
+     "name": "113",
+     "url": "https://map.psu.edu/?id=1134#!m/11341168",
+     "hours": {
+      "tue": null
+     },
+     "busy": {
+      "tue": []
      }
     }
    ]
@@ -254,7 +288,7 @@
    "id": "benkovic-bldg",
    "name": "Benkovic Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "18:00"
     ]
@@ -262,18 +296,18 @@
    "rooms": [
     {
      "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341161",
+     "url": "https://map.psu.edu/?id=1134#!m/11341167",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "16:00",
-        "17:00"
+        "18:00"
        ]
       ]
      }
@@ -284,7 +318,7 @@
    "id": "biobehavioral-health-b",
    "name": "Biobehavioral Health B",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -292,41 +326,46 @@
    "rooms": [
     {
      "name": "022",
-     "url": "https://map.psu.edu/?id=1134#!m/11341364",
+     "url": "https://map.psu.edu/?id=1134#!m/11341373",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341365",
+     "url": "https://map.psu.edu/?id=1134#!m/11341374",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "13:00",
+        "14:00"
+       ]
+      ]
      }
     },
     {
      "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341366",
+     "url": "https://map.psu.edu/?id=1134#!m/11341375",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -335,7 +374,7 @@
    "id": "borland-bldg",
    "name": "Borland Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -343,98 +382,98 @@
    "rooms": [
     {
      "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341173",
+     "url": "https://map.psu.edu/?id=1134#!m/11341181",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "10:10",
-        "11:00"
+        "20:00",
+        "23:00"
        ]
       ]
      }
     },
     {
      "name": "111",
-     "url": "https://map.psu.edu/?id=1134#!m/11341174",
+     "url": "https://map.psu.edu/?id=1134#!m/11341182",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341175",
+     "url": "https://map.psu.edu/?id=1134#!m/11341183",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "116",
-     "url": "https://map.psu.edu/?id=1134#!m/11341176",
+     "url": "https://map.psu.edu/?id=1134#!m/11341184",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341177",
+     "url": "https://map.psu.edu/?id=1134#!m/11341185",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "118",
-     "url": "https://map.psu.edu/?id=1134#!m/11341178",
+     "url": "https://map.psu.edu/?id=1134#!m/11341186",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "242",
-     "url": "https://map.psu.edu/?id=1134#!m/11341179",
+     "url": "https://map.psu.edu/?id=1134#!m/11341187",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -443,7 +482,7 @@
    "id": "boucke-bldg",
    "name": "Boucke Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -451,113 +490,106 @@
    "rooms": [
     {
      "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341043",
+     "url": "https://map.psu.edu/?id=1134#!m/11341045",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "19:30",
-        "20:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "109",
-     "url": "https://map.psu.edu/?id=1134#!m/11341044",
+     "url": "https://map.psu.edu/?id=1134#!m/11341046",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "11:15",
-        "12:15"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "111",
-     "url": "https://map.psu.edu/?id=1134#!m/11341045",
+     "url": "https://map.psu.edu/?id=1134#!m/11341047",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341046",
+     "url": "https://map.psu.edu/?id=1134#!m/11341048",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "09:00",
-        "12:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "214",
-     "url": "https://map.psu.edu/?id=1134#!m/11341047",
+     "url": "https://map.psu.edu/?id=1134#!m/11341049",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "215",
-     "url": "https://map.psu.edu/?id=1134#!m/11341048",
+     "url": "https://map.psu.edu/?id=1134#!m/11341050",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "10:30",
-        "12:30"
+        "11:30",
+        "12:00"
+       ],
+       [
+        "12:05",
+        "13:20"
+       ],
+       [
+        "19:00",
+        "21:00"
        ]
       ]
      }
     },
     {
      "name": "216",
-     "url": "https://map.psu.edu/?id=1134#!m/11341049",
+     "url": "https://map.psu.edu/?id=1134#!m/11341051",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "17:30",
         "22:30"
@@ -567,15 +599,19 @@
     },
     {
      "name": "301",
-     "url": "https://map.psu.edu/?id=1134#!m/11341050",
+     "url": "https://map.psu.edu/?id=1134#!m/11341052",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
+       [
+        "15:00",
+        "17:00"
+       ],
        [
         "17:30",
         "22:00"
@@ -585,41 +621,32 @@
     },
     {
      "name": "302",
-     "url": "https://map.psu.edu/?id=1134#!m/11341051",
+     "url": "https://map.psu.edu/?id=1134#!m/11341053",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "11:15",
-        "12:05"
-       ],
-       [
-        "14:00",
-        "15:00"
-       ],
-       [
-        "15:30",
-        "16:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "304",
-     "url": "https://map.psu.edu/?id=1134#!m/11341052",
+     "url": "https://map.psu.edu/?id=1134#!m/11341054",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
+       [
+        "12:20",
+        "13:10"
+       ],
        [
         "18:00",
         "21:30"
@@ -629,31 +656,36 @@
     },
     {
      "name": "306",
-     "url": "https://map.psu.edu/?id=1134#!m/11341053",
+     "url": "https://map.psu.edu/?id=1134#!m/11341055",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "19:00",
+        "21:30"
+       ]
+      ]
      }
     },
     {
      "name": "307",
-     "url": "https://map.psu.edu/?id=1134#!m/11341054",
+     "url": "https://map.psu.edu/?id=1134#!m/11341056",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "11:00",
-        "12:00"
+        "16:35",
+        "17:50"
        ],
        [
         "18:00",
@@ -664,15 +696,19 @@
     },
     {
      "name": "308",
-     "url": "https://map.psu.edu/?id=1134#!m/11341055",
+     "url": "https://map.psu.edu/?id=1134#!m/11341057",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
+       [
+        "16:00",
+        "17:00"
+       ],
        [
         "17:30",
         "22:00"
@@ -682,36 +718,33 @@
     },
     {
      "name": "309",
-     "url": "https://map.psu.edu/?id=1134#!m/11341056",
+     "url": "https://map.psu.edu/?id=1134#!m/11341058",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "12:15",
+        "13:15"
+       ]
+      ]
      }
     },
     {
      "name": "311",
-     "url": "https://map.psu.edu/?id=1134#!m/11341057",
+     "url": "https://map.psu.edu/?id=1134#!m/11341059",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "11:15",
-        "12:05"
-       ],
-       [
-        "14:30",
-        "15:20"
-       ],
+      "tue": [
        [
         "18:00",
         "22:00"
@@ -721,59 +754,67 @@
     },
     {
      "name": "312",
-     "url": "https://map.psu.edu/?id=1134#!m/11341058",
+     "url": "https://map.psu.edu/?id=1134#!m/11341060",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "17:30",
-        "22:00"
+        "17:00",
+        "18:00"
+       ],
+       [
+        "19:00",
+        "20:30"
        ]
       ]
      }
     },
     {
      "name": "317",
-     "url": "https://map.psu.edu/?id=1134#!m/11341059",
+     "url": "https://map.psu.edu/?id=1134#!m/11341061",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "322",
-     "url": "https://map.psu.edu/?id=1134#!m/11341060",
+     "url": "https://map.psu.edu/?id=1134#!m/11341062",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "323",
-     "url": "https://map.psu.edu/?id=1134#!m/11341061",
+     "url": "https://map.psu.edu/?id=1134#!m/11341063",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
+       [
+        "10:20",
+        "10:35"
+       ],
        [
         "17:30",
         "22:00"
@@ -787,7 +828,7 @@
    "id": "buckhout-lab",
    "name": "Buckhout Lab",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "19:00"
     ]
@@ -795,28 +836,33 @@
    "rooms": [
     {
      "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341171",
+     "url": "https://map.psu.edu/?id=1134#!m/11341179",
      "hours": {
-      "mon": [
+      "tue": [
        "07:30",
        "19:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "18:00",
+        "19:00"
+       ]
+      ]
      }
     },
     {
      "name": "213",
-     "url": "https://map.psu.edu/?id=1134#!m/11341172",
+     "url": "https://map.psu.edu/?id=1134#!m/11341180",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -825,7 +871,7 @@
    "id": "burrowes-bldg",
    "name": "Burrowes Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "18:00"
     ]
@@ -833,28 +879,28 @@
    "rooms": [
     {
      "name": "025",
-     "url": "https://map.psu.edu/?id=1134#!m/11341322",
+     "url": "https://map.psu.edu/?id=1134#!m/11341331",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "026",
-     "url": "https://map.psu.edu/?id=1134#!m/11341323",
+     "url": "https://map.psu.edu/?id=1134#!m/11341332",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -863,7 +909,7 @@
    "id": "business-bldg",
    "name": "Business Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -871,291 +917,282 @@
    "rooms": [
     {
      "name": "002",
-     "url": "https://map.psu.edu/?id=1134#!m/11341089",
+     "url": "https://map.psu.edu/?id=1134#!m/11341093",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "003",
-     "url": "https://map.psu.edu/?id=1134#!m/11341090",
+     "url": "https://map.psu.edu/?id=1134#!m/11341094",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "18:00",
-        "19:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "004",
-     "url": "https://map.psu.edu/?id=1134#!m/11341091",
+     "url": "https://map.psu.edu/?id=1134#!m/11341095",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "005",
-     "url": "https://map.psu.edu/?id=1134#!m/11341092",
+     "url": "https://map.psu.edu/?id=1134#!m/11341096",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "006",
-     "url": "https://map.psu.edu/?id=1134#!m/11341093",
+     "url": "https://map.psu.edu/?id=1134#!m/11341097",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "18:30",
-        "19:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "007",
-     "url": "https://map.psu.edu/?id=1134#!m/11341094",
+     "url": "https://map.psu.edu/?id=1134#!m/11341098",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "008",
-     "url": "https://map.psu.edu/?id=1134#!m/11341095",
+     "url": "https://map.psu.edu/?id=1134#!m/11341099",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "009",
-     "url": "https://map.psu.edu/?id=1134#!m/11341096",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
+      "tue": [
        [
-        "18:30",
-        "19:30"
+        "18:00",
+        "19:00"
        ]
       ]
      }
     },
     {
-     "name": "010",
-     "url": "https://map.psu.edu/?id=1134#!m/11341097",
+     "name": "009",
+     "url": "https://map.psu.edu/?id=1134#!m/11341100",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
+     }
+    },
+    {
+     "name": "010",
+     "url": "https://map.psu.edu/?id=1134#!m/11341101",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
      }
     },
     {
      "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341098",
+     "url": "https://map.psu.edu/?id=1134#!m/11341102",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341099",
+     "url": "https://map.psu.edu/?id=1134#!m/11341103",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341100",
+     "url": "https://map.psu.edu/?id=1134#!m/11341104",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341101",
+     "url": "https://map.psu.edu/?id=1134#!m/11341105",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "10:00",
-        "11:00"
+        "16:30",
+        "17:30"
        ]
       ]
      }
     },
     {
      "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341102",
+     "url": "https://map.psu.edu/?id=1134#!m/11341106",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341103",
+     "url": "https://map.psu.edu/?id=1134#!m/11341107",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341104",
+     "url": "https://map.psu.edu/?id=1134#!m/11341108",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341105",
+     "url": "https://map.psu.edu/?id=1134#!m/11341109",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "206",
-     "url": "https://map.psu.edu/?id=1134#!m/11341106",
+     "url": "https://map.psu.edu/?id=1134#!m/11341110",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "208",
-     "url": "https://map.psu.edu/?id=1134#!m/11341107",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
+      "tue": [
        [
         "11:00",
-        "13:00"
-       ],
-       [
-        "13:25",
-        "14:25"
+        "12:00"
        ]
       ]
      }
     },
     {
-     "name": "215",
-     "url": "https://map.psu.edu/?id=1134#!m/11341108",
+     "name": "208",
+     "url": "https://map.psu.edu/?id=1134#!m/11341111",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
+     }
+    },
+    {
+     "name": "215",
+     "url": "https://map.psu.edu/?id=1134#!m/11341112",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "15:00",
+        "17:00"
+       ]
+      ]
      }
     }
    ]
@@ -1164,7 +1201,7 @@
    "id": "carnegie-bldg",
    "name": "Carnegie Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -1172,15 +1209,15 @@
    "rooms": [
     {
      "name": "113",
-     "url": "https://map.psu.edu/?id=1134#!m/11341381",
+     "url": "https://map.psu.edu/?id=1134#!m/11341390",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -1189,7 +1226,7 @@
    "id": "carpenter-bldg",
    "name": "Carpenter Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -1197,28 +1234,28 @@
    "rooms": [
     {
      "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341299",
+     "url": "https://map.psu.edu/?id=1134#!m/11341308",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341300",
+     "url": "https://map.psu.edu/?id=1134#!m/11341309",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
         "21:00"
@@ -1232,7 +1269,7 @@
    "id": "cedar-building",
    "name": "CEDAR Building",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -1240,28 +1277,28 @@
    "rooms": [
     {
      "name": "124",
-     "url": "https://map.psu.edu/?id=1134#!m/11341345",
+     "url": "https://map.psu.edu/?id=1134#!m/11341354",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "134",
-     "url": "https://map.psu.edu/?id=1134#!m/11341346",
+     "url": "https://map.psu.edu/?id=1134#!m/11341355",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -1270,7 +1307,7 @@
    "id": "chambers-bldg",
    "name": "Chambers Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -1278,204 +1315,176 @@
    "rooms": [
     {
      "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341324",
+     "url": "https://map.psu.edu/?id=1134#!m/11341333",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341325",
+     "url": "https://map.psu.edu/?id=1134#!m/11341334",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341326",
+     "url": "https://map.psu.edu/?id=1134#!m/11341335",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "11:15",
+        "14:15"
+       ]
+      ]
      }
     },
     {
      "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341327",
+     "url": "https://map.psu.edu/?id=1134#!m/11341336",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341328",
+     "url": "https://map.psu.edu/?id=1134#!m/11341337",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "19:00",
-        "20:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341329",
+     "url": "https://map.psu.edu/?id=1134#!m/11341338",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "111",
-     "url": "https://map.psu.edu/?id=1134#!m/11341330",
+     "url": "https://map.psu.edu/?id=1134#!m/11341339",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341331",
+     "url": "https://map.psu.edu/?id=1134#!m/11341340",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "113A",
-     "url": "https://map.psu.edu/?id=1134#!m/11341332",
+     "url": "https://map.psu.edu/?id=1134#!m/11341341",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "16:35",
-        "17:50"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "205",
-     "url": "https://map.psu.edu/?id=1134#!m/11341333",
+     "url": "https://map.psu.edu/?id=1134#!m/11341342",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "17:30",
-        "18:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "208",
-     "url": "https://map.psu.edu/?id=1134#!m/11341334",
+     "url": "https://map.psu.edu/?id=1134#!m/11341343",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "15:00",
-        "17:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "209",
-     "url": "https://map.psu.edu/?id=1134#!m/11341335",
+     "url": "https://map.psu.edu/?id=1134#!m/11341344",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "09:05",
-        "09:55"
-       ],
-       [
-        "12:00",
-        "13:00"
-       ],
-       [
-        "13:00",
-        "15:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "210",
-     "url": "https://map.psu.edu/?id=1134#!m/11341336",
+     "url": "https://map.psu.edu/?id=1134#!m/11341345",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -1484,7 +1493,7 @@
    "id": "chemical-and-biomedical-engineering-bldg",
    "name": "Chemical and Biomedical Engineering Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -1492,15 +1501,15 @@
    "rooms": [
     {
      "name": "001",
-     "url": "https://map.psu.edu/?id=1134#!m/11341292",
+     "url": "https://map.psu.edu/?id=1134#!m/11341301",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "20:00",
         "22:00"
@@ -1510,36 +1519,36 @@
     },
     {
      "name": "109",
-     "url": "https://map.psu.edu/?id=1134#!m/11341293",
+     "url": "https://map.psu.edu/?id=1134#!m/11341302",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "17:30",
-        "18:00"
+        "15:00",
+        "16:00"
        ]
       ]
      }
     },
     {
      "name": "113",
-     "url": "https://map.psu.edu/?id=1134#!m/11341294",
+     "url": "https://map.psu.edu/?id=1134#!m/11341303",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "17:15",
-        "19:00"
+        "16:30",
+        "18:00"
        ]
       ]
      }
@@ -1550,7 +1559,7 @@
    "id": "davey-lab",
    "name": "Davey Lab",
    "hours": {
-    "mon": [
+    "tue": [
      "09:00",
      "22:00"
     ]
@@ -1558,15 +1567,15 @@
    "rooms": [
     {
      "name": "211",
-     "url": "https://map.psu.edu/?id=1134#!m/11341297",
+     "url": "https://map.psu.edu/?id=1134#!m/11341306",
      "hours": {
-      "mon": [
+      "tue": [
        "09:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -1575,7 +1584,7 @@
    "id": "deike-building",
    "name": "Deike Building",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -1583,85 +1592,94 @@
    "rooms": [
     {
      "name": "002",
-     "url": "https://map.psu.edu/?id=1134#!m/11341305",
+     "url": "https://map.psu.edu/?id=1134#!m/11341314",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "004",
-     "url": "https://map.psu.edu/?id=1134#!m/11341306",
+     "url": "https://map.psu.edu/?id=1134#!m/11341315",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "022",
-     "url": "https://map.psu.edu/?id=1134#!m/11341307",
+     "url": "https://map.psu.edu/?id=1134#!m/11341316",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "15:30",
+        "17:30"
+       ]
+      ]
      }
     },
     {
      "name": "025",
-     "url": "https://map.psu.edu/?id=1134#!m/11341308",
+     "url": "https://map.psu.edu/?id=1134#!m/11341317",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "337",
-     "url": "https://map.psu.edu/?id=1134#!m/11341309",
+     "url": "https://map.psu.edu/?id=1134#!m/11341318",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "10:00",
+        "11:00"
+       ],
+       [
+        "11:30",
+        "14:30"
+       ]
+      ]
      }
     },
     {
      "name": "341",
-     "url": "https://map.psu.edu/?id=1134#!m/11341310",
+     "url": "https://map.psu.edu/?id=1134#!m/11341319",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "16:30",
-        "17:00"
-       ]
-      ]
+      "tue": []
      }
     }
    ]
@@ -1670,23 +1688,36 @@
    "id": "earth-and-eng-sciences",
    "name": "Earth and Eng Sciences",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
    },
    "rooms": [
     {
-     "name": "118",
-     "url": "https://map.psu.edu/?id=1134#!m/11341109",
+     "name": "117",
+     "url": "https://map.psu.edu/?id=1134#!m/11341114",
      "hours": {
-      "mon": [
+      "tue": [
+       "08:00",
+       "17:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "118",
+     "url": "https://map.psu.edu/?id=1134#!m/11341115",
+     "hours": {
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
         "21:00"
@@ -1696,15 +1727,15 @@
     },
     {
      "name": "119",
-     "url": "https://map.psu.edu/?id=1134#!m/11341110",
+     "url": "https://map.psu.edu/?id=1134#!m/11341116",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
         "21:00"
@@ -1714,28 +1745,28 @@
     },
     {
      "name": "120",
-     "url": "https://map.psu.edu/?id=1134#!m/11341111",
+     "url": "https://map.psu.edu/?id=1134#!m/11341117",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "121",
-     "url": "https://map.psu.edu/?id=1134#!m/11341112",
+     "url": "https://map.psu.edu/?id=1134#!m/11341118",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
         "21:00"
@@ -1749,7 +1780,7 @@
    "id": "ecore-bldg-west-1",
    "name": "ECoRE Bldg (West 1)",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "22:00"
     ]
@@ -1757,121 +1788,120 @@
    "rooms": [
     {
      "name": "005",
-     "url": "https://map.psu.edu/?id=1134#!m/11341252",
+     "url": "https://map.psu.edu/?id=1134#!m/11341261",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "17:30",
-        "19:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "028",
-     "url": "https://map.psu.edu/?id=1134#!m/11341253",
+     "url": "https://map.psu.edu/?id=1134#!m/11341262",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341254",
+     "url": "https://map.psu.edu/?id=1134#!m/11341263",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "16:30",
-        "20:00"
+        "14:00",
+        "15:00"
+       ],
+       [
+        "18:00",
+        "19:15"
        ]
       ]
      }
     },
     {
      "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341255",
+     "url": "https://map.psu.edu/?id=1134#!m/11341264",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "18:00",
+        "20:00"
+       ]
+      ]
      }
     },
     {
      "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341256",
+     "url": "https://map.psu.edu/?id=1134#!m/11341265",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "247",
-     "url": "https://map.psu.edu/?id=1134#!m/11341257",
+     "url": "https://map.psu.edu/?id=1134#!m/11341266",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "301",
-     "url": "https://map.psu.edu/?id=1134#!m/11341258",
+     "url": "https://map.psu.edu/?id=1134#!m/11341267",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "401",
-     "url": "https://map.psu.edu/?id=1134#!m/11341259",
+     "url": "https://map.psu.edu/?id=1134#!m/11341268",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "16:00",
-        "17:15"
-       ]
-      ]
+      "tue": []
      }
     }
    ]
@@ -1880,7 +1910,7 @@
    "id": "elec-eng-east",
    "name": "Elec Eng East",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "18:00"
     ]
@@ -1888,41 +1918,46 @@
    "rooms": [
     {
      "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341262",
+     "url": "https://map.psu.edu/?id=1134#!m/11341271",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "09:30",
+        "12:00"
+       ]
+      ]
      }
     },
     {
      "name": "123",
-     "url": "https://map.psu.edu/?id=1134#!m/11341263",
+     "url": "https://map.psu.edu/?id=1134#!m/11341272",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "132",
-     "url": "https://map.psu.edu/?id=1134#!m/11341264",
+     "url": "https://map.psu.edu/?id=1134#!m/11341273",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -1931,7 +1966,7 @@
    "id": "elec-eng-west",
    "name": "Elec Eng West",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "18:00"
     ]
@@ -1939,137 +1974,142 @@
    "rooms": [
     {
      "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341226",
+     "url": "https://map.psu.edu/?id=1134#!m/11341235",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341227",
+     "url": "https://map.psu.edu/?id=1134#!m/11341236",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": []
+     }
+    },
+    {
+     "name": "105",
+     "url": "https://map.psu.edu/?id=1134#!m/11341237",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "107",
+     "url": "https://map.psu.edu/?id=1134#!m/11341238",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "109",
+     "url": "https://map.psu.edu/?id=1134#!m/11341239",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "117",
+     "url": "https://map.psu.edu/?id=1134#!m/11341240",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
-        "12:20",
-        "13:00"
+        "16:00",
+        "17:30"
        ]
       ]
      }
     },
     {
-     "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341228",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341229",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "109",
-     "url": "https://map.psu.edu/?id=1134#!m/11341230",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341231",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
      "name": "201",
-     "url": "https://map.psu.edu/?id=1134#!m/11341232",
+     "url": "https://map.psu.edu/?id=1134#!m/11341241",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341233",
+     "url": "https://map.psu.edu/?id=1134#!m/11341242",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "203",
-     "url": "https://map.psu.edu/?id=1134#!m/11341234",
+     "url": "https://map.psu.edu/?id=1134#!m/11341243",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "13:35",
+        "14:25"
+       ]
+      ]
      }
     },
     {
      "name": "225",
-     "url": "https://map.psu.edu/?id=1134#!m/11341235",
+     "url": "https://map.psu.edu/?id=1134#!m/11341244",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "18:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2078,7 +2118,7 @@
    "id": "engineering-design-innovation-building",
    "name": "Engineering Design & Innovation Building",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "22:00"
     ]
@@ -2086,46 +2126,28 @@
    "rooms": [
     {
      "name": "016",
-     "url": "https://map.psu.edu/?id=1134#!m/11341260",
+     "url": "https://map.psu.edu/?id=1134#!m/11341269",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "15:35",
-        "17:30"
-       ],
-       [
-        "18:00",
-        "21:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "017",
-     "url": "https://map.psu.edu/?id=1134#!m/11341261",
+     "url": "https://map.psu.edu/?id=1134#!m/11341270",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "22:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "16:40",
-        "17:30"
-       ],
-       [
-        "18:00",
-        "21:00"
-       ]
-      ]
+      "tue": []
      }
     }
    ]
@@ -2134,7 +2156,7 @@
    "id": "erickson-food-science",
    "name": "Erickson Food Science",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2142,15 +2164,28 @@
    "rooms": [
     {
      "name": "133",
-     "url": "https://map.psu.edu/?id=1134#!m/11341180",
+     "url": "https://map.psu.edu/?id=1134#!m/11341188",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
+     }
+    },
+    {
+     "name": "252",
+     "url": "https://map.psu.edu/?id=1134#!m/11341189",
+     "hours": {
+      "tue": [
+       "07:30",
+       "19:00"
+      ]
+     },
+     "busy": {
+      "tue": []
      }
     }
    ]
@@ -2159,7 +2194,7 @@
    "id": "ferguson-bldg",
    "name": "Ferguson Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2167,116 +2202,135 @@
    "rooms": [
     {
      "name": "003",
-     "url": "https://map.psu.edu/?id=1134#!m/11341181",
+     "url": "https://map.psu.edu/?id=1134#!m/11341190",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "005",
-     "url": "https://map.psu.edu/?id=1134#!m/11341182",
+     "url": "https://map.psu.edu/?id=1134#!m/11341191",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "011",
-     "url": "https://map.psu.edu/?id=1134#!m/11341183",
+     "url": "https://map.psu.edu/?id=1134#!m/11341192",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "15:05",
+        "16:20"
+       ]
+      ]
      }
     },
     {
      "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341184",
+     "url": "https://map.psu.edu/?id=1134#!m/11341193",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "13:25",
-        "14:15"
+        "11:00",
+        "13:00"
        ]
       ]
      }
     },
     {
      "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341185",
+     "url": "https://map.psu.edu/?id=1134#!m/11341194",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341186",
+     "url": "https://map.psu.edu/?id=1134#!m/11341195",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "18:30",
-        "20:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "205",
-     "url": "https://map.psu.edu/?id=1134#!m/11341187",
+     "url": "https://map.psu.edu/?id=1134#!m/11341196",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "210",
-     "url": "https://map.psu.edu/?id=1134#!m/11341188",
+     "url": "https://map.psu.edu/?id=1134#!m/11341197",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "ford-bldg",
+   "name": "Ford Bldg",
+   "hours": {
+    "tue": null
+   },
+   "rooms": [
+    {
+     "name": "110",
+     "url": "https://map.psu.edu/?id=1134#!m/11341087",
+     "hours": {
+      "tue": null
+     },
+     "busy": {
+      "tue": []
      }
     }
    ]
@@ -2285,7 +2339,7 @@
    "id": "ford-building",
    "name": "Ford Building",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2293,67 +2347,72 @@
    "rooms": [
     {
      "name": "201",
-     "url": "https://map.psu.edu/?id=1134#!m/11341084",
+     "url": "https://map.psu.edu/?id=1134#!m/11341088",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "16:35",
+        "17:50"
+       ]
+      ]
      }
     },
     {
      "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341085",
+     "url": "https://map.psu.edu/?id=1134#!m/11341089",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "207",
-     "url": "https://map.psu.edu/?id=1134#!m/11341086",
+     "url": "https://map.psu.edu/?id=1134#!m/11341090",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "208",
-     "url": "https://map.psu.edu/?id=1134#!m/11341087",
+     "url": "https://map.psu.edu/?id=1134#!m/11341091",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "808",
-     "url": "https://map.psu.edu/?id=1134#!m/11341088",
+     "url": "https://map.psu.edu/?id=1134#!m/11341092",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2362,7 +2421,7 @@
    "id": "forest-resources-building",
    "name": "Forest Resources Building",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2370,116 +2429,106 @@
    "rooms": [
     {
      "name": "001",
-     "url": "https://map.psu.edu/?id=1134#!m/11341192",
+     "url": "https://map.psu.edu/?id=1134#!m/11341201",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "10:30",
-        "11:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341193",
+     "url": "https://map.psu.edu/?id=1134#!m/11341202",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341194",
+     "url": "https://map.psu.edu/?id=1134#!m/11341203",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341195",
+     "url": "https://map.psu.edu/?id=1134#!m/11341204",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "20:00",
-        "21:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341196",
+     "url": "https://map.psu.edu/?id=1134#!m/11341205",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341197",
+     "url": "https://map.psu.edu/?id=1134#!m/11341206",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341198",
+     "url": "https://map.psu.edu/?id=1134#!m/11341207",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "417",
-     "url": "https://map.psu.edu/?id=1134#!m/11341199",
+     "url": "https://map.psu.edu/?id=1134#!m/11341208",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2488,7 +2537,7 @@
    "id": "forum-bldg",
    "name": "Forum Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2496,54 +2545,54 @@
    "rooms": [
     {
      "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341387",
+     "url": "https://map.psu.edu/?id=1134#!m/11341396",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341388",
+     "url": "https://map.psu.edu/?id=1134#!m/11341397",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341389",
+     "url": "https://map.psu.edu/?id=1134#!m/11341398",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "111",
-     "url": "https://map.psu.edu/?id=1134#!m/11341390",
+     "url": "https://map.psu.edu/?id=1134#!m/11341399",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2552,7 +2601,7 @@
    "id": "hallowell-bldg",
    "name": "Hallowell Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "19:00"
     ]
@@ -2560,15 +2609,15 @@
    "rooms": [
     {
      "name": "211",
-     "url": "https://map.psu.edu/?id=1134#!m/11341265",
+     "url": "https://map.psu.edu/?id=1134#!m/11341274",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "19:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2577,7 +2626,7 @@
    "id": "hammond-bldg",
    "name": "Hammond Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2585,197 +2634,207 @@
    "rooms": [
     {
      "name": "206",
-     "url": "https://map.psu.edu/?id=1134#!m/11341237",
+     "url": "https://map.psu.edu/?id=1134#!m/11341246",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "207",
-     "url": "https://map.psu.edu/?id=1134#!m/11341238",
+     "url": "https://map.psu.edu/?id=1134#!m/11341247",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "209",
-     "url": "https://map.psu.edu/?id=1134#!m/11341239",
+     "url": "https://map.psu.edu/?id=1134#!m/11341248",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "212",
-     "url": "https://map.psu.edu/?id=1134#!m/11341240",
+     "url": "https://map.psu.edu/?id=1134#!m/11341249",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "214",
-     "url": "https://map.psu.edu/?id=1134#!m/11341241",
+     "url": "https://map.psu.edu/?id=1134#!m/11341250",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "215",
-     "url": "https://map.psu.edu/?id=1134#!m/11341242",
+     "url": "https://map.psu.edu/?id=1134#!m/11341251",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "12:05",
+        "13:20"
+       ]
+      ]
      }
     },
     {
      "name": "217",
-     "url": "https://map.psu.edu/?id=1134#!m/11341243",
+     "url": "https://map.psu.edu/?id=1134#!m/11341252",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "219",
-     "url": "https://map.psu.edu/?id=1134#!m/11341244",
+     "url": "https://map.psu.edu/?id=1134#!m/11341253",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "220",
-     "url": "https://map.psu.edu/?id=1134#!m/11341245",
+     "url": "https://map.psu.edu/?id=1134#!m/11341254",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "221",
-     "url": "https://map.psu.edu/?id=1134#!m/11341246",
+     "url": "https://map.psu.edu/?id=1134#!m/11341255",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "304",
-     "url": "https://map.psu.edu/?id=1134#!m/11341247",
+     "url": "https://map.psu.edu/?id=1134#!m/11341256",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "19:30",
+        "22:30"
+       ]
+      ]
      }
     },
     {
      "name": "305",
-     "url": "https://map.psu.edu/?id=1134#!m/11341248",
+     "url": "https://map.psu.edu/?id=1134#!m/11341257",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "306",
-     "url": "https://map.psu.edu/?id=1134#!m/11341249",
+     "url": "https://map.psu.edu/?id=1134#!m/11341258",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "307",
-     "url": "https://map.psu.edu/?id=1134#!m/11341250",
+     "url": "https://map.psu.edu/?id=1134#!m/11341259",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "308",
-     "url": "https://map.psu.edu/?id=1134#!m/11341251",
+     "url": "https://map.psu.edu/?id=1134#!m/11341260",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2784,7 +2843,7 @@
    "id": "health-and-hum-dev",
    "name": "Health and Hum Dev",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2792,98 +2851,98 @@
    "rooms": [
     {
      "name": "005",
-     "url": "https://map.psu.edu/?id=1134#!m/11341351",
+     "url": "https://map.psu.edu/?id=1134#!m/11341360",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "254",
-     "url": "https://map.psu.edu/?id=1134#!m/11341352",
+     "url": "https://map.psu.edu/?id=1134#!m/11341361",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "16:00",
-        "17:00"
+        "20:00",
+        "21:00"
        ]
       ]
      }
     },
     {
      "name": "256",
-     "url": "https://map.psu.edu/?id=1134#!m/11341353",
+     "url": "https://map.psu.edu/?id=1134#!m/11341362",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "350",
-     "url": "https://map.psu.edu/?id=1134#!m/11341354",
+     "url": "https://map.psu.edu/?id=1134#!m/11341363",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "353",
-     "url": "https://map.psu.edu/?id=1134#!m/11341355",
+     "url": "https://map.psu.edu/?id=1134#!m/11341364",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "355",
-     "url": "https://map.psu.edu/?id=1134#!m/11341356",
+     "url": "https://map.psu.edu/?id=1134#!m/11341365",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "359",
-     "url": "https://map.psu.edu/?id=1134#!m/11341357",
+     "url": "https://map.psu.edu/?id=1134#!m/11341366",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2892,7 +2951,7 @@
    "id": "henderson-bldg",
    "name": "Henderson Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2900,54 +2959,54 @@
    "rooms": [
     {
      "name": "001",
-     "url": "https://map.psu.edu/?id=1134#!m/11341347",
+     "url": "https://map.psu.edu/?id=1134#!m/11341356",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "014",
-     "url": "https://map.psu.edu/?id=1134#!m/11341348",
+     "url": "https://map.psu.edu/?id=1134#!m/11341357",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341349",
+     "url": "https://map.psu.edu/?id=1134#!m/11341358",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341350",
+     "url": "https://map.psu.edu/?id=1134#!m/11341359",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -2956,7 +3015,7 @@
    "id": "hosler-building",
    "name": "Hosler Building",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -2964,46 +3023,46 @@
    "rooms": [
     {
      "name": "026",
-     "url": "https://map.psu.edu/?id=1134#!m/11341302",
+     "url": "https://map.psu.edu/?id=1134#!m/11341311",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "218",
-     "url": "https://map.psu.edu/?id=1134#!m/11341303",
+     "url": "https://map.psu.edu/?id=1134#!m/11341312",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "15:30",
-        "16:20"
+        "09:00",
+        "11:00"
        ]
       ]
      }
     },
     {
      "name": "218A",
-     "url": "https://map.psu.edu/?id=1134#!m/11341304",
+     "url": "https://map.psu.edu/?id=1134#!m/11341313",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -3012,17 +3071,17 @@
    "id": "hub",
    "name": "HUB",
    "hours": {
-    "mon": null
+    "tue": null
    },
    "rooms": [
     {
      "name": "117 John Bill Freeman Auditorium",
-     "url": "https://map.psu.edu/?id=1134#!m/11341002",
+     "url": "https://map.psu.edu/?id=1134#!m/11341004",
      "hours": {
-      "mon": null
+      "tue": null
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -3031,7 +3090,7 @@
    "id": "huck-life-sciences-bldg",
    "name": "Huck Life Sciences Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -3039,1650 +3098,28 @@
    "rooms": [
     {
      "name": "004",
-     "url": "https://map.psu.edu/?id=1134#!m/11341113",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "13:25",
-        "14:15"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "005",
-     "url": "https://map.psu.edu/?id=1134#!m/11341114",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "006",
-     "url": "https://map.psu.edu/?id=1134#!m/11341115",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "007",
-     "url": "https://map.psu.edu/?id=1134#!m/11341116",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "008",
-     "url": "https://map.psu.edu/?id=1134#!m/11341117",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "009",
-     "url": "https://map.psu.edu/?id=1134#!m/11341118",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "010",
      "url": "https://map.psu.edu/?id=1134#!m/11341119",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "011",
-     "url": "https://map.psu.edu/?id=1134#!m/11341120",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "012",
-     "url": "https://map.psu.edu/?id=1134#!m/11341121",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "013",
-     "url": "https://map.psu.edu/?id=1134#!m/11341122",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "014",
-     "url": "https://map.psu.edu/?id=1134#!m/11341123",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "100",
-     "url": "https://map.psu.edu/?id=1134#!m/11341124",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "301D",
-     "url": "https://map.psu.edu/?id=1134#!m/11341125",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "keller-bldg",
-   "name": "Keller Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341077",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341078",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "113",
-     "url": "https://map.psu.edu/?id=1134#!m/11341079",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "114",
-     "url": "https://map.psu.edu/?id=1134#!m/11341080",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "115",
-     "url": "https://map.psu.edu/?id=1134#!m/11341081",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "210",
-     "url": "https://map.psu.edu/?id=1134#!m/11341082",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "211",
-     "url": "https://map.psu.edu/?id=1134#!m/11341083",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "kern-grad-bldg",
-   "name": "Kern Grad Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341298",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "leonhard-bldg",
-   "name": "Leonhard Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341266",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341267",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341268",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341269",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "12:00",
-        "15:30"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "203",
-     "url": "https://map.psu.edu/?id=1134#!m/11341270",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "mateer-bldg",
-   "name": "Mateer Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "011",
-     "url": "https://map.psu.edu/?id=1134#!m/11341367",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341368",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341369",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "118",
-     "url": "https://map.psu.edu/?id=1134#!m/11341370",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "moore-building",
-   "name": "Moore Building",
-   "hours": {
-    "mon": [
-     "07:00",
-     "18:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "120",
-     "url": "https://map.psu.edu/?id=1134#!m/11341343",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "127",
-     "url": "https://map.psu.edu/?id=1134#!m/11341344",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "mueller-lab",
-   "name": "Mueller Lab",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "008",
-     "url": "https://map.psu.edu/?id=1134#!m/11341295",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "music-i",
-   "name": "Music I",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "100",
-     "url": "https://map.psu.edu/?id=1134#!m/11341384",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "115",
-     "url": "https://map.psu.edu/?id=1134#!m/11341385",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "20:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341386",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "nursing-sciences-bldg",
-   "name": "Nursing Sciences Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "149",
-     "url": "https://map.psu.edu/?id=1134#!m/11341358",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "16:30",
-        "17:30"
-       ],
-       [
-        "18:00",
-        "19:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "316",
-     "url": "https://map.psu.edu/?id=1134#!m/11341359",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "317",
-     "url": "https://map.psu.edu/?id=1134#!m/11341360",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "14:30",
-        "15:45"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "319",
-     "url": "https://map.psu.edu/?id=1134#!m/11341361",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "322",
-     "url": "https://map.psu.edu/?id=1134#!m/11341362",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "323",
-     "url": "https://map.psu.edu/?id=1134#!m/11341363",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "osmond-lab",
-   "name": "Osmond Lab",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341271",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341272",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341273",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "16:00",
-        "18:30"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341274",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341275",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "22:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "109",
-     "url": "https://map.psu.edu/?id=1134#!m/11341276",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "22:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341277",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "22:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341278",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "22:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "113",
-     "url": "https://map.psu.edu/?id=1134#!m/11341279",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "22:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341280",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "119",
-     "url": "https://map.psu.edu/?id=1134#!m/11341281",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "201",
-     "url": "https://map.psu.edu/?id=1134#!m/11341282",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341283",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "19:30"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "207",
-     "url": "https://map.psu.edu/?id=1134#!m/11341284",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "16:30",
-        "18:00"
-       ],
-       [
-        "18:00",
-        "21:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "216",
-     "url": "https://map.psu.edu/?id=1134#!m/11341285",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "paterno-library",
-   "name": "Paterno Library",
-   "hours": {
-    "mon": [
-     "07:45",
-     "23:59"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "E302",
-     "url": "https://map.psu.edu/?id=1134#!m/11341001",
-     "hours": {
-      "mon": [
-       "07:45",
-       "23:59"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "patterson-bldg",
-   "name": "Patterson Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "304",
-     "url": "https://map.psu.edu/?id=1134#!m/11341211",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "pollock-bldg",
-   "name": "Pollock Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "202",
-     "url": "https://map.psu.edu/?id=1134#!m/11341003",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "rackley-building",
-   "name": "Rackley Building",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341337",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341338",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341339",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341340",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "18:00",
-        "21:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "303",
-     "url": "https://map.psu.edu/?id=1134#!m/11341341",
-     "hours": {
-      "mon": [
-       "07:00",
-       "17:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "09:00",
-        "10:00"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "403",
-     "url": "https://map.psu.edu/?id=1134#!m/11341342",
-     "hours": {
-      "mon": [
-       "07:00",
-       "17:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "14:30",
-        "15:20"
-       ],
-       [
-        "16:00",
-        "17:00"
-       ]
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "id": "reber-building",
-   "name": "Reber Building",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "135",
-     "url": "https://map.psu.edu/?id=1134#!m/11341236",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "sackett-bldg",
-   "name": "Sackett Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "002",
-     "url": "https://map.psu.edu/?id=1134#!m/11341214",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "005",
-     "url": "https://map.psu.edu/?id=1134#!m/11341215",
+     "url": "https://map.psu.edu/?id=1134#!m/11341120",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "006",
-     "url": "https://map.psu.edu/?id=1134#!m/11341216",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "007",
-     "url": "https://map.psu.edu/?id=1134#!m/11341217",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "012",
-     "url": "https://map.psu.edu/?id=1134#!m/11341218",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341219",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341220",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341221",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341222",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341223",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341224",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "109",
-     "url": "https://map.psu.edu/?id=1134#!m/11341225",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "sparks-bldg",
-   "name": "Sparks Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "001",
-     "url": "https://map.psu.edu/?id=1134#!m/11341371",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "002",
-     "url": "https://map.psu.edu/?id=1134#!m/11341372",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "006",
-     "url": "https://map.psu.edu/?id=1134#!m/11341373",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "009",
-     "url": "https://map.psu.edu/?id=1134#!m/11341374",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "010",
-     "url": "https://map.psu.edu/?id=1134#!m/11341375",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "121",
-     "url": "https://map.psu.edu/?id=1134#!m/11341376",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "309",
-     "url": "https://map.psu.edu/?id=1134#!m/11341377",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "14:30",
-        "15:20"
-       ]
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "id": "steidle-building",
-   "name": "Steidle Building",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "114",
-     "url": "https://map.psu.edu/?id=1134#!m/11341301",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "stuckeman-family-building",
-   "name": "Stuckeman Family Building",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "143",
-     "url": "https://map.psu.edu/?id=1134#!m/11341391",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "144",
-     "url": "https://map.psu.edu/?id=1134#!m/11341392",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "susan-welch-liberal-arts-bldg",
-   "name": "Susan Welch Liberal Arts Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "114",
-     "url": "https://map.psu.edu/?id=1134#!m/11341378",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "115",
-     "url": "https://map.psu.edu/?id=1134#!m/11341379",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341380",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "theatre-bldg",
-   "name": "Theatre Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "18:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "230",
-     "url": "https://map.psu.edu/?id=1134#!m/11341382",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "234",
-     "url": "https://map.psu.edu/?id=1134#!m/11341383",
-     "hours": {
-      "mon": [
-       "07:00",
-       "18:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    }
-   ]
-  },
-  {
-   "id": "thomas-bldg",
-   "name": "Thomas Bldg",
-   "hours": {
-    "mon": [
-     "07:00",
-     "23:00"
-    ]
-   },
-   "rooms": [
-    {
-     "name": "100",
-     "url": "https://map.psu.edu/?id=1134#!m/11341132",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341133",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "102",
-     "url": "https://map.psu.edu/?id=1134#!m/11341134",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "104",
-     "url": "https://map.psu.edu/?id=1134#!m/11341135",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341136",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "10:10",
-        "11:00"
-       ],
-       [
-        "14:30",
-        "15:20"
-       ],
-       [
-        "15:30",
-        "16:20"
-       ],
+      "tue": [
        [
         "16:40",
         "17:30"
@@ -4691,394 +3128,296 @@
      }
     },
     {
-     "name": "111",
-     "url": "https://map.psu.edu/?id=1134#!m/11341137",
+     "name": "006",
+     "url": "https://map.psu.edu/?id=1134#!m/11341121",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341138",
+     "name": "007",
+     "url": "https://map.psu.edu/?id=1134#!m/11341122",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "113",
-     "url": "https://map.psu.edu/?id=1134#!m/11341139",
+     "name": "008",
+     "url": "https://map.psu.edu/?id=1134#!m/11341123",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "117",
-     "url": "https://map.psu.edu/?id=1134#!m/11341140",
+     "name": "009",
+     "url": "https://map.psu.edu/?id=1134#!m/11341124",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "118",
-     "url": "https://map.psu.edu/?id=1134#!m/11341141",
+     "name": "010",
+     "url": "https://map.psu.edu/?id=1134#!m/11341125",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "12:20",
-        "13:20"
-       ]
-      ]
+      "tue": []
      }
     },
     {
-     "name": "119",
-     "url": "https://map.psu.edu/?id=1134#!m/11341142",
+     "name": "011",
+     "url": "https://map.psu.edu/?id=1134#!m/11341126",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "120",
-     "url": "https://map.psu.edu/?id=1134#!m/11341143",
+     "name": "012",
+     "url": "https://map.psu.edu/?id=1134#!m/11341127",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "121",
-     "url": "https://map.psu.edu/?id=1134#!m/11341144",
+     "name": "013",
+     "url": "https://map.psu.edu/?id=1134#!m/11341128",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "122",
-     "url": "https://map.psu.edu/?id=1134#!m/11341145",
+     "name": "014",
+     "url": "https://map.psu.edu/?id=1134#!m/11341129",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "124",
-     "url": "https://map.psu.edu/?id=1134#!m/11341146",
+     "name": "100",
+     "url": "https://map.psu.edu/?id=1134#!m/11341130",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "125",
-     "url": "https://map.psu.edu/?id=1134#!m/11341147",
+     "name": "301D",
+     "url": "https://map.psu.edu/?id=1134#!m/11341131",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "201",
-     "url": "https://map.psu.edu/?id=1134#!m/11341148",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "17:15",
-        "18:30"
-       ]
-      ]
-     }
-    },
-    {
-     "name": "207",
-     "url": "https://map.psu.edu/?id=1134#!m/11341149",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "208",
-     "url": "https://map.psu.edu/?id=1134#!m/11341150",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "209",
-     "url": "https://map.psu.edu/?id=1134#!m/11341151",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "210",
-     "url": "https://map.psu.edu/?id=1134#!m/11341152",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "215",
-     "url": "https://map.psu.edu/?id=1134#!m/11341153",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "216",
-     "url": "https://map.psu.edu/?id=1134#!m/11341154",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "217",
-     "url": "https://map.psu.edu/?id=1134#!m/11341155",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "218",
-     "url": "https://map.psu.edu/?id=1134#!m/11341156",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "219",
-     "url": "https://map.psu.edu/?id=1134#!m/11341157",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "220",
-     "url": "https://map.psu.edu/?id=1134#!m/11341158",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "222",
-     "url": "https://map.psu.edu/?id=1134#!m/11341159",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "223",
-     "url": "https://map.psu.edu/?id=1134#!m/11341160",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
-       [
-        "13:30",
-        "14:30"
-       ],
-       [
-        "17:00",
-        "18:00"
-       ]
-      ]
+      "tue": []
      }
     }
    ]
   },
   {
-   "id": "tyson-bldg",
-   "name": "Tyson Bldg",
+   "id": "keller-bldg",
+   "name": "Keller Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
-     "18:00"
+     "23:00"
     ]
    },
    "rooms": [
     {
-     "name": "015",
-     "url": "https://map.psu.edu/?id=1134#!m/11341189",
+     "name": "104",
+     "url": "https://map.psu.edu/?id=1134#!m/11341079",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
-       "18:00"
+       "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341190",
+     "name": "112",
+     "url": "https://map.psu.edu/?id=1134#!m/11341080",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
-       "18:00"
+       "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
-     "name": "111",
-     "url": "https://map.psu.edu/?id=1134#!m/11341191",
+     "name": "113",
+     "url": "https://map.psu.edu/?id=1134#!m/11341081",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
-       "18:00"
+       "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
+     }
+    },
+    {
+     "name": "114",
+     "url": "https://map.psu.edu/?id=1134#!m/11341082",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "115",
+     "url": "https://map.psu.edu/?id=1134#!m/11341083",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "201 Executive Education Classroom",
+     "url": "https://map.psu.edu/?id=1134#!m/11341084",
+     "hours": {
+      "tue": [
+       "07:00",
+       "19:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "210",
+     "url": "https://map.psu.edu/?id=1134#!m/11341085",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "211",
+     "url": "https://map.psu.edu/?id=1134#!m/11341086",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
      }
     }
    ]
   },
   {
-   "id": "wagner-bldg",
-   "name": "Wagner Bldg",
+   "id": "kern-grad-bldg",
+   "name": "Kern Grad Bldg",
    "hours": {
-    "mon": [
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "112",
+     "url": "https://map.psu.edu/?id=1134#!m/11341307",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "leonhard-bldg",
+   "name": "Leonhard Bldg",
+   "hours": {
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -5086,23 +3425,420 @@
    "rooms": [
     {
      "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341062",
+     "url": "https://map.psu.edu/?id=1134#!m/11341275",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": []
+     }
+    },
+    {
+     "name": "102",
+     "url": "https://map.psu.edu/?id=1134#!m/11341276",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "103",
+     "url": "https://map.psu.edu/?id=1134#!m/11341277",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "202",
+     "url": "https://map.psu.edu/?id=1134#!m/11341278",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "203",
+     "url": "https://map.psu.edu/?id=1134#!m/11341279",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "mateer-bldg",
+   "name": "Mateer Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "011",
+     "url": "https://map.psu.edu/?id=1134#!m/11341376",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
-        "11:15",
-        "12:05"
-       ],
+        "17:45",
+        "20:15"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "110",
+     "url": "https://map.psu.edu/?id=1134#!m/11341377",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "117",
+     "url": "https://map.psu.edu/?id=1134#!m/11341378",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "118",
+     "url": "https://map.psu.edu/?id=1134#!m/11341379",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "mcallister-bldg",
+   "name": "McAllister Bldg",
+   "hours": {
+    "tue": null
+   },
+   "rooms": [
+    {
+     "name": "114",
+     "url": "https://map.psu.edu/?id=1134#!m/11341113",
+     "hours": {
+      "tue": null
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "moore-building",
+   "name": "Moore Building",
+   "hours": {
+    "tue": [
+     "07:00",
+     "18:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "120",
+     "url": "https://map.psu.edu/?id=1134#!m/11341352",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
-        "12:20",
-        "13:10"
-       ],
+        "16:45",
+        "17:45"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "127",
+     "url": "https://map.psu.edu/?id=1134#!m/11341353",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "13:35",
+        "14:50"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "mueller-lab",
+   "name": "Mueller Lab",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "008",
+     "url": "https://map.psu.edu/?id=1134#!m/11341304",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "music-i",
+   "name": "Music I",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "100",
+     "url": "https://map.psu.edu/?id=1134#!m/11341393",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "115",
+     "url": "https://map.psu.edu/?id=1134#!m/11341394",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "117",
+     "url": "https://map.psu.edu/?id=1134#!m/11341395",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "nursing-sciences-bldg",
+   "name": "Nursing Sciences Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "149",
+     "url": "https://map.psu.edu/?id=1134#!m/11341367",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "316",
+     "url": "https://map.psu.edu/?id=1134#!m/11341368",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "317",
+     "url": "https://map.psu.edu/?id=1134#!m/11341369",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "319",
+     "url": "https://map.psu.edu/?id=1134#!m/11341370",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "322",
+     "url": "https://map.psu.edu/?id=1134#!m/11341371",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "323",
+     "url": "https://map.psu.edu/?id=1134#!m/11341372",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "osmond-lab",
+   "name": "Osmond Lab",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "101",
+     "url": "https://map.psu.edu/?id=1134#!m/11341280",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "103",
+     "url": "https://map.psu.edu/?id=1134#!m/11341281",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "104",
+     "url": "https://map.psu.edu/?id=1134#!m/11341282",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
         "13:25",
         "14:15"
@@ -5112,44 +3848,1059 @@
     },
     {
      "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341063",
+     "url": "https://map.psu.edu/?id=1134#!m/11341283",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
+     }
+    },
+    {
+     "name": "106",
+     "url": "https://map.psu.edu/?id=1134#!m/11341284",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "18:00",
+        "22:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "109",
+     "url": "https://map.psu.edu/?id=1134#!m/11341285",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "18:00",
+        "22:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "110",
+     "url": "https://map.psu.edu/?id=1134#!m/11341286",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "18:00",
+        "22:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "112",
+     "url": "https://map.psu.edu/?id=1134#!m/11341287",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "18:00",
+        "22:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "113",
+     "url": "https://map.psu.edu/?id=1134#!m/11341288",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "117",
+     "url": "https://map.psu.edu/?id=1134#!m/11341289",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "119",
+     "url": "https://map.psu.edu/?id=1134#!m/11341290",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "201",
+     "url": "https://map.psu.edu/?id=1134#!m/11341291",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "202",
+     "url": "https://map.psu.edu/?id=1134#!m/11341292",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "207",
+     "url": "https://map.psu.edu/?id=1134#!m/11341293",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "20:00",
+        "23:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "216",
+     "url": "https://map.psu.edu/?id=1134#!m/11341294",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "paterno-library",
+   "name": "Paterno Library",
+   "hours": {
+    "tue": [
+     "07:45",
+     "23:59"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "E302",
+     "url": "https://map.psu.edu/?id=1134#!m/11341003",
+     "hours": {
+      "tue": [
+       "07:45",
+       "23:59"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "pattee-library",
+   "name": "Pattee Library",
+   "hours": {
+    "tue": [
+     "07:45",
+     "23:59"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "W013",
+     "url": "https://map.psu.edu/?id=1134#!m/11341001",
+     "hours": {
+      "tue": [
+       "07:45",
+       "23:59"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "W315",
+     "url": "https://map.psu.edu/?id=1134#!m/11341002",
+     "hours": {
+      "tue": [
+       "07:45",
+       "23:59"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "patterson-bldg",
+   "name": "Patterson Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "304",
+     "url": "https://map.psu.edu/?id=1134#!m/11341220",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "pollock-bldg",
+   "name": "Pollock Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "202",
+     "url": "https://map.psu.edu/?id=1134#!m/11341005",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "rackley-building",
+   "name": "Rackley Building",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "103",
+     "url": "https://map.psu.edu/?id=1134#!m/11341346",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "104",
+     "url": "https://map.psu.edu/?id=1134#!m/11341347",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "105",
+     "url": "https://map.psu.edu/?id=1134#!m/11341348",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "107",
+     "url": "https://map.psu.edu/?id=1134#!m/11341349",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "303",
+     "url": "https://map.psu.edu/?id=1134#!m/11341350",
+     "hours": {
+      "tue": [
+       "07:00",
+       "17:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "403",
+     "url": "https://map.psu.edu/?id=1134#!m/11341351",
+     "hours": {
+      "tue": [
+       "07:00",
+       "17:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "reber-building",
+   "name": "Reber Building",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "135",
+     "url": "https://map.psu.edu/?id=1134#!m/11341245",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "sackett-bldg",
+   "name": "Sackett Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "002",
+     "url": "https://map.psu.edu/?id=1134#!m/11341223",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "005",
+     "url": "https://map.psu.edu/?id=1134#!m/11341224",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "006",
+     "url": "https://map.psu.edu/?id=1134#!m/11341225",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "007",
+     "url": "https://map.psu.edu/?id=1134#!m/11341226",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "012",
+     "url": "https://map.psu.edu/?id=1134#!m/11341227",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "101",
+     "url": "https://map.psu.edu/?id=1134#!m/11341228",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "102",
+     "url": "https://map.psu.edu/?id=1134#!m/11341229",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "104",
+     "url": "https://map.psu.edu/?id=1134#!m/11341230",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "105",
+     "url": "https://map.psu.edu/?id=1134#!m/11341231",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "106",
+     "url": "https://map.psu.edu/?id=1134#!m/11341232",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "108",
+     "url": "https://map.psu.edu/?id=1134#!m/11341233",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "109",
+     "url": "https://map.psu.edu/?id=1134#!m/11341234",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "sparks-bldg",
+   "name": "Sparks Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "001",
+     "url": "https://map.psu.edu/?id=1134#!m/11341380",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "002",
+     "url": "https://map.psu.edu/?id=1134#!m/11341381",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "11:00",
+        "12:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "006",
+     "url": "https://map.psu.edu/?id=1134#!m/11341382",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "009",
+     "url": "https://map.psu.edu/?id=1134#!m/11341383",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "010",
+     "url": "https://map.psu.edu/?id=1134#!m/11341384",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "121",
+     "url": "https://map.psu.edu/?id=1134#!m/11341385",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "309",
+     "url": "https://map.psu.edu/?id=1134#!m/11341386",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "10:15",
+        "11:05"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "steam-services-bldg",
+   "name": "Steam Services Bldg",
+   "hours": {
+    "tue": null
+   },
+   "rooms": [
+    {
+     "name": "212",
+     "url": "https://map.psu.edu/?id=1134#!m/11341177",
+     "hours": {
+      "tue": null
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "steidle-building",
+   "name": "Steidle Building",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "114",
+     "url": "https://map.psu.edu/?id=1134#!m/11341310",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "stuckeman-family-building",
+   "name": "Stuckeman Family Building",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "143",
+     "url": "https://map.psu.edu/?id=1134#!m/11341400",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "144",
+     "url": "https://map.psu.edu/?id=1134#!m/11341401",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "susan-welch-liberal-arts-bldg",
+   "name": "Susan Welch Liberal Arts Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "114",
+     "url": "https://map.psu.edu/?id=1134#!m/11341387",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
      }
     },
     {
      "name": "115",
-     "url": "https://map.psu.edu/?id=1134#!m/11341064",
+     "url": "https://map.psu.edu/?id=1134#!m/11341388",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "09:05",
-        "09:55"
-       ],
-       [
-        "10:10",
-        "11:00"
-       ],
+      "tue": []
+     }
+    },
+    {
+     "name": "117",
+     "url": "https://map.psu.edu/?id=1134#!m/11341389",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "theatre-bldg",
+   "name": "Theatre Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "18:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "230",
+     "url": "https://map.psu.edu/?id=1134#!m/11341391",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "234",
+     "url": "https://map.psu.edu/?id=1134#!m/11341392",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "thomas-bldg",
+   "name": "Thomas Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "100",
+     "url": "https://map.psu.edu/?id=1134#!m/11341138",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "101",
+     "url": "https://map.psu.edu/?id=1134#!m/11341139",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "102",
+     "url": "https://map.psu.edu/?id=1134#!m/11341140",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "104",
+     "url": "https://map.psu.edu/?id=1134#!m/11341141",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "110",
+     "url": "https://map.psu.edu/?id=1134#!m/11341142",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "111",
+     "url": "https://map.psu.edu/?id=1134#!m/11341143",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
         "11:15",
         "12:05"
-       ],
+       ]
+      ]
+     }
+    },
+    {
+     "name": "112",
+     "url": "https://map.psu.edu/?id=1134#!m/11341144",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "113",
+     "url": "https://map.psu.edu/?id=1134#!m/11341145",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
-        "12:20",
-        "13:10"
-       ],
+        "12:05",
+        "13:20"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "117",
+     "url": "https://map.psu.edu/?id=1134#!m/11341146",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "118",
+     "url": "https://map.psu.edu/?id=1134#!m/11341147",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "11:15",
+        "12:05"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "119",
+     "url": "https://map.psu.edu/?id=1134#!m/11341148",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "120",
+     "url": "https://map.psu.edu/?id=1134#!m/11341149",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "121",
+     "url": "https://map.psu.edu/?id=1134#!m/11341150",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
         "13:25",
         "14:15"
@@ -5158,129 +4909,506 @@
      }
     },
     {
-     "name": "115A",
-     "url": "https://map.psu.edu/?id=1134#!m/11341065",
+     "name": "122",
+     "url": "https://map.psu.edu/?id=1134#!m/11341151",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": []
+     }
+    },
+    {
+     "name": "124",
+     "url": "https://map.psu.edu/?id=1134#!m/11341152",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "125",
+     "url": "https://map.psu.edu/?id=1134#!m/11341153",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "201",
+     "url": "https://map.psu.edu/?id=1134#!m/11341154",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "207",
+     "url": "https://map.psu.edu/?id=1134#!m/11341155",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "208",
+     "url": "https://map.psu.edu/?id=1134#!m/11341156",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "20:00",
+        "23:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "209",
+     "url": "https://map.psu.edu/?id=1134#!m/11341157",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "210",
+     "url": "https://map.psu.edu/?id=1134#!m/11341158",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "215",
+     "url": "https://map.psu.edu/?id=1134#!m/11341159",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "216",
+     "url": "https://map.psu.edu/?id=1134#!m/11341160",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "217",
+     "url": "https://map.psu.edu/?id=1134#!m/11341161",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "218",
+     "url": "https://map.psu.edu/?id=1134#!m/11341162",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "18:00",
+        "20:00"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "219",
+     "url": "https://map.psu.edu/?id=1134#!m/11341163",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "15:00",
+        "15:50"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "220",
+     "url": "https://map.psu.edu/?id=1134#!m/11341164",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "222",
+     "url": "https://map.psu.edu/?id=1134#!m/11341165",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "223",
+     "url": "https://map.psu.edu/?id=1134#!m/11341166",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "tyson-bldg",
+   "name": "Tyson Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "18:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "015",
+     "url": "https://map.psu.edu/?id=1134#!m/11341198",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "16:30",
+        "18:30"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "108",
+     "url": "https://map.psu.edu/?id=1134#!m/11341199",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "111",
+     "url": "https://map.psu.edu/?id=1134#!m/11341200",
+     "hours": {
+      "tue": [
+       "07:00",
+       "18:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "16:30",
+        "18:30"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "wagner-bldg",
+   "name": "Wagner Bldg",
+   "hours": {
+    "tue": [
+     "07:00",
+     "23:00"
+    ]
+   },
+   "rooms": [
+    {
+     "name": "101",
+     "url": "https://map.psu.edu/?id=1134#!m/11341064",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "15:30",
+        "17:30"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "105",
+     "url": "https://map.psu.edu/?id=1134#!m/11341065",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "115",
+     "url": "https://map.psu.edu/?id=1134#!m/11341066",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
         "09:05",
-        "09:55"
+        "10:20"
        ],
        [
-        "10:10",
-        "11:00"
+        "10:35",
+        "11:50"
        ],
        [
-        "11:15",
-        "12:05"
+        "12:05",
+        "13:20"
+       ],
+       [
+        "13:35",
+        "14:50"
+       ],
+       [
+        "15:30",
+        "17:30"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "115A",
+     "url": "https://map.psu.edu/?id=1134#!m/11341067",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
+       [
+        "09:05",
+        "10:20"
+       ],
+       [
+        "10:35",
+        "11:50"
+       ],
+       [
+        "12:05",
+        "13:20"
+       ],
+       [
+        "13:35",
+        "14:50"
        ]
       ]
      }
     },
     {
      "name": "116",
-     "url": "https://map.psu.edu/?id=1134#!m/11341066",
+     "url": "https://map.psu.edu/?id=1134#!m/11341068",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "10:00",
-        "11:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "118",
-     "url": "https://map.psu.edu/?id=1134#!m/11341067",
+     "url": "https://map.psu.edu/?id=1134#!m/11341069",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "201",
-     "url": "https://map.psu.edu/?id=1134#!m/11341068",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
+      "tue": [
        [
-        "08:00",
-        "09:30"
+        "12:05",
+        "13:20"
        ]
       ]
      }
     },
     {
-     "name": "206",
-     "url": "https://map.psu.edu/?id=1134#!m/11341069",
+     "name": "201",
+     "url": "https://map.psu.edu/?id=1134#!m/11341070",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": []
+     }
+    },
+    {
+     "name": "206",
+     "url": "https://map.psu.edu/?id=1134#!m/11341071",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
-        "10:00",
-        "12:00"
+        "07:00",
+        "08:30"
+       ],
+       [
+        "10:35",
+        "11:50"
        ]
       ]
      }
     },
     {
      "name": "214",
-     "url": "https://map.psu.edu/?id=1134#!m/11341070",
+     "url": "https://map.psu.edu/?id=1134#!m/11341072",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "07:00",
+        "08:30"
+       ],
+       [
+        "09:05",
+        "10:20"
+       ],
+       [
+        "17:00",
+        "18:00"
+       ],
+       [
+        "18:00",
+        "20:00"
+       ]
+      ]
      }
     },
     {
      "name": "303",
-     "url": "https://map.psu.edu/?id=1134#!m/11341071",
+     "url": "https://map.psu.edu/?id=1134#!m/11341073",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "09:30",
-        "11:30"
-       ],
-       [
-        "13:00",
-        "14:30"
+        "13:35",
+        "14:50"
        ],
        [
         "18:00",
@@ -5291,15 +5419,15 @@
     },
     {
      "name": "304",
-     "url": "https://map.psu.edu/?id=1134#!m/11341072",
+     "url": "https://map.psu.edu/?id=1134#!m/11341074",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
         "22:00"
@@ -5309,15 +5437,15 @@
     },
     {
      "name": "305",
-     "url": "https://map.psu.edu/?id=1134#!m/11341073",
+     "url": "https://map.psu.edu/?id=1134#!m/11341075",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
         "22:00"
@@ -5327,15 +5455,19 @@
     },
     {
      "name": "316",
-     "url": "https://map.psu.edu/?id=1134#!m/11341074",
+     "url": "https://map.psu.edu/?id=1134#!m/11341076",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
+       [
+        "15:00",
+        "17:00"
+       ],
        [
         "18:00",
         "22:00"
@@ -5345,15 +5477,15 @@
     },
     {
      "name": "317",
-     "url": "https://map.psu.edu/?id=1134#!m/11341075",
+     "url": "https://map.psu.edu/?id=1134#!m/11341077",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
         "22:00"
@@ -5363,34 +5495,22 @@
     },
     {
      "name": "320",
-     "url": "https://map.psu.edu/?id=1134#!m/11341076",
+     "url": "https://map.psu.edu/?id=1134#!m/11341078",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
-        "09:05",
-        "09:55"
+        "15:30",
+        "17:30"
        ],
        [
-        "10:10",
-        "11:00"
-       ],
-       [
-        "11:15",
-        "12:05"
-       ],
-       [
-        "12:20",
-        "13:10"
-       ],
-       [
-        "13:25",
-        "14:15"
+        "18:00",
+        "20:00"
        ]
       ]
      }
@@ -5401,7 +5521,7 @@
    "id": "walker-building",
    "name": "Walker Building",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -5409,150 +5529,155 @@
    "rooms": [
     {
      "name": "003",
-     "url": "https://map.psu.edu/?id=1134#!m/11341311",
+     "url": "https://map.psu.edu/?id=1134#!m/11341320",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "004",
-     "url": "https://map.psu.edu/?id=1134#!m/11341312",
+     "url": "https://map.psu.edu/?id=1134#!m/11341321",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "009",
-     "url": "https://map.psu.edu/?id=1134#!m/11341313",
+     "url": "https://map.psu.edu/?id=1134#!m/11341322",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "012",
-     "url": "https://map.psu.edu/?id=1134#!m/11341314",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "101",
-     "url": "https://map.psu.edu/?id=1134#!m/11341315",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "103",
-     "url": "https://map.psu.edu/?id=1134#!m/11341316",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341317",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "109",
-     "url": "https://map.psu.edu/?id=1134#!m/11341318",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341319",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
-     "name": "112",
-     "url": "https://map.psu.edu/?id=1134#!m/11341320",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": [
+      "tue": [
        [
-        "15:30",
-        "17:30"
+        "18:00",
+        "20:00"
        ]
       ]
      }
     },
     {
-     "name": "124",
-     "url": "https://map.psu.edu/?id=1134#!m/11341321",
+     "name": "012",
+     "url": "https://map.psu.edu/?id=1134#!m/11341323",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "12:00",
+        "13:30"
+       ]
+      ]
+     }
+    },
+    {
+     "name": "101",
+     "url": "https://map.psu.edu/?id=1134#!m/11341324",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "103",
+     "url": "https://map.psu.edu/?id=1134#!m/11341325",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "105",
+     "url": "https://map.psu.edu/?id=1134#!m/11341326",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "109",
+     "url": "https://map.psu.edu/?id=1134#!m/11341327",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "110",
+     "url": "https://map.psu.edu/?id=1134#!m/11341328",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "112",
+     "url": "https://map.psu.edu/?id=1134#!m/11341329",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
+     }
+    },
+    {
+     "name": "124",
+     "url": "https://map.psu.edu/?id=1134#!m/11341330",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": []
      }
     }
    ]
@@ -5561,7 +5686,7 @@
    "id": "waring-hall",
    "name": "Waring Hall",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -5569,28 +5694,28 @@
    "rooms": [
     {
      "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341212",
+     "url": "https://map.psu.edu/?id=1134#!m/11341221",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "129",
-     "url": "https://map.psu.edu/?id=1134#!m/11341213",
+     "url": "https://map.psu.edu/?id=1134#!m/11341222",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -5599,7 +5724,7 @@
    "id": "wartik-lab",
    "name": "Wartik Lab",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -5607,85 +5732,90 @@
    "rooms": [
     {
      "name": "105",
-     "url": "https://map.psu.edu/?id=1134#!m/11341286",
+     "url": "https://map.psu.edu/?id=1134#!m/11341295",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "17:00",
+        "19:00"
+       ]
+      ]
      }
     },
     {
      "name": "106",
-     "url": "https://map.psu.edu/?id=1134#!m/11341287",
+     "url": "https://map.psu.edu/?id=1134#!m/11341296",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "107",
-     "url": "https://map.psu.edu/?id=1134#!m/11341288",
+     "url": "https://map.psu.edu/?id=1134#!m/11341297",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": [
        [
         "18:00",
-        "21:30"
+        "22:00"
        ]
       ]
      }
     },
     {
      "name": "108",
-     "url": "https://map.psu.edu/?id=1134#!m/11341289",
+     "url": "https://map.psu.edu/?id=1134#!m/11341298",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "110",
-     "url": "https://map.psu.edu/?id=1134#!m/11341290",
+     "url": "https://map.psu.edu/?id=1134#!m/11341299",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "111",
-     "url": "https://map.psu.edu/?id=1134#!m/11341291",
+     "url": "https://map.psu.edu/?id=1134#!m/11341300",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -5694,7 +5824,7 @@
    "id": "westgate-bldg",
    "name": "Westgate Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -5702,89 +5832,85 @@
    "rooms": [
     {
      "name": "E201",
-     "url": "https://map.psu.edu/?id=1134#!m/11341126",
+     "url": "https://map.psu.edu/?id=1134#!m/11341132",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "E205",
-     "url": "https://map.psu.edu/?id=1134#!m/11341127",
+     "url": "https://map.psu.edu/?id=1134#!m/11341133",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "E206",
-     "url": "https://map.psu.edu/?id=1134#!m/11341128",
+     "url": "https://map.psu.edu/?id=1134#!m/11341134",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
+      "tue": []
+     }
+    },
+    {
+     "name": "E210",
+     "url": "https://map.psu.edu/?id=1134#!m/11341135",
+     "hours": {
+      "tue": [
+       "07:00",
+       "23:00"
+      ]
+     },
+     "busy": {
+      "tue": [
        [
-        "11:30",
-        "13:30"
-       ],
-       [
-        "16:30",
-        "18:00"
+        "18:00",
+        "19:00"
        ]
       ]
      }
     },
     {
-     "name": "E210",
-     "url": "https://map.psu.edu/?id=1134#!m/11341129",
-     "hours": {
-      "mon": [
-       "07:00",
-       "23:00"
-      ]
-     },
-     "busy": {
-      "mon": []
-     }
-    },
-    {
      "name": "W201",
-     "url": "https://map.psu.edu/?id=1134#!m/11341130",
+     "url": "https://map.psu.edu/?id=1134#!m/11341136",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "W219",
-     "url": "https://map.psu.edu/?id=1134#!m/11341131",
+     "url": "https://map.psu.edu/?id=1134#!m/11341137",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     }
    ]
@@ -5793,7 +5919,7 @@
    "id": "willard-bldg",
    "name": "Willard Bldg",
    "hours": {
-    "mon": [
+    "tue": [
      "07:00",
      "23:00"
     ]
@@ -5801,568 +5927,519 @@
    "rooms": [
     {
      "name": "060",
-     "url": "https://map.psu.edu/?id=1134#!m/11341004",
+     "url": "https://map.psu.edu/?id=1134#!m/11341006",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "062",
-     "url": "https://map.psu.edu/?id=1134#!m/11341005",
+     "url": "https://map.psu.edu/?id=1134#!m/11341007",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "064",
-     "url": "https://map.psu.edu/?id=1134#!m/11341006",
+     "url": "https://map.psu.edu/?id=1134#!m/11341008",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "10:35",
+        "11:50"
+       ]
+      ]
      }
     },
     {
      "name": "067",
-     "url": "https://map.psu.edu/?id=1134#!m/11341007",
+     "url": "https://map.psu.edu/?id=1134#!m/11341009",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "069",
-     "url": "https://map.psu.edu/?id=1134#!m/11341008",
+     "url": "https://map.psu.edu/?id=1134#!m/11341010",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "071",
-     "url": "https://map.psu.edu/?id=1134#!m/11341009",
+     "url": "https://map.psu.edu/?id=1134#!m/11341011",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "073",
-     "url": "https://map.psu.edu/?id=1134#!m/11341010",
+     "url": "https://map.psu.edu/?id=1134#!m/11341012",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "075",
-     "url": "https://map.psu.edu/?id=1134#!m/11341011",
+     "url": "https://map.psu.edu/?id=1134#!m/11341013",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "151",
-     "url": "https://map.psu.edu/?id=1134#!m/11341012",
+     "url": "https://map.psu.edu/?id=1134#!m/11341014",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "158",
-     "url": "https://map.psu.edu/?id=1134#!m/11341013",
+     "url": "https://map.psu.edu/?id=1134#!m/11341015",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "160",
-     "url": "https://map.psu.edu/?id=1134#!m/11341014",
+     "url": "https://map.psu.edu/?id=1134#!m/11341016",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": [
+       [
+        "16:30",
+        "18:00"
+       ]
+      ]
      }
     },
     {
      "name": "162",
-     "url": "https://map.psu.edu/?id=1134#!m/11341015",
+     "url": "https://map.psu.edu/?id=1134#!m/11341017",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "165",
-     "url": "https://map.psu.edu/?id=1134#!m/11341016",
+     "url": "https://map.psu.edu/?id=1134#!m/11341018",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "19:30",
-        "23:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "167",
-     "url": "https://map.psu.edu/?id=1134#!m/11341017",
+     "url": "https://map.psu.edu/?id=1134#!m/11341019",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "169",
-     "url": "https://map.psu.edu/?id=1134#!m/11341018",
+     "url": "https://map.psu.edu/?id=1134#!m/11341020",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "20:00",
-        "23:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "171",
-     "url": "https://map.psu.edu/?id=1134#!m/11341019",
+     "url": "https://map.psu.edu/?id=1134#!m/11341021",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "173",
-     "url": "https://map.psu.edu/?id=1134#!m/11341020",
+     "url": "https://map.psu.edu/?id=1134#!m/11341022",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "15:30",
-        "17:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "174",
-     "url": "https://map.psu.edu/?id=1134#!m/11341021",
+     "url": "https://map.psu.edu/?id=1134#!m/11341023",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "251",
-     "url": "https://map.psu.edu/?id=1134#!m/11341022",
+     "url": "https://map.psu.edu/?id=1134#!m/11341024",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "19:00",
-        "20:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "258",
-     "url": "https://map.psu.edu/?id=1134#!m/11341023",
+     "url": "https://map.psu.edu/?id=1134#!m/11341025",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "260",
-     "url": "https://map.psu.edu/?id=1134#!m/11341024",
+     "url": "https://map.psu.edu/?id=1134#!m/11341026",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "18:00",
-        "19:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "262",
-     "url": "https://map.psu.edu/?id=1134#!m/11341025",
+     "url": "https://map.psu.edu/?id=1134#!m/11341027",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "17:30",
-        "19:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "265",
-     "url": "https://map.psu.edu/?id=1134#!m/11341026",
+     "url": "https://map.psu.edu/?id=1134#!m/11341028",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "13:00",
-        "14:30"
-       ],
-       [
-        "19:00",
-        "23:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "267",
-     "url": "https://map.psu.edu/?id=1134#!m/11341027",
+     "url": "https://map.psu.edu/?id=1134#!m/11341029",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "268",
-     "url": "https://map.psu.edu/?id=1134#!m/11341028",
+     "url": "https://map.psu.edu/?id=1134#!m/11341030",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "269",
-     "url": "https://map.psu.edu/?id=1134#!m/11341029",
+     "url": "https://map.psu.edu/?id=1134#!m/11341031",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "270",
-     "url": "https://map.psu.edu/?id=1134#!m/11341030",
+     "url": "https://map.psu.edu/?id=1134#!m/11341032",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "16:00",
-        "17:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "271",
-     "url": "https://map.psu.edu/?id=1134#!m/11341031",
+     "url": "https://map.psu.edu/?id=1134#!m/11341033",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "273",
-     "url": "https://map.psu.edu/?id=1134#!m/11341032",
+     "url": "https://map.psu.edu/?id=1134#!m/11341034",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "18:00",
-        "19:30"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "351",
-     "url": "https://map.psu.edu/?id=1134#!m/11341033",
+     "url": "https://map.psu.edu/?id=1134#!m/11341035",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "358",
-     "url": "https://map.psu.edu/?id=1134#!m/11341034",
+     "url": "https://map.psu.edu/?id=1134#!m/11341036",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "360",
-     "url": "https://map.psu.edu/?id=1134#!m/11341035",
+     "url": "https://map.psu.edu/?id=1134#!m/11341037",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "362",
-     "url": "https://map.psu.edu/?id=1134#!m/11341036",
+     "url": "https://map.psu.edu/?id=1134#!m/11341038",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "365",
-     "url": "https://map.psu.edu/?id=1134#!m/11341037",
+     "url": "https://map.psu.edu/?id=1134#!m/11341039",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "367",
-     "url": "https://map.psu.edu/?id=1134#!m/11341038",
+     "url": "https://map.psu.edu/?id=1134#!m/11341040",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "369",
-     "url": "https://map.psu.edu/?id=1134#!m/11341039",
+     "url": "https://map.psu.edu/?id=1134#!m/11341041",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "370",
-     "url": "https://map.psu.edu/?id=1134#!m/11341040",
+     "url": "https://map.psu.edu/?id=1134#!m/11341042",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": []
+      "tue": []
      }
     },
     {
      "name": "371",
-     "url": "https://map.psu.edu/?id=1134#!m/11341041",
+     "url": "https://map.psu.edu/?id=1134#!m/11341043",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "18:00",
-        "21:00"
-       ]
-      ]
+      "tue": []
      }
     },
     {
      "name": "373",
-     "url": "https://map.psu.edu/?id=1134#!m/11341042",
+     "url": "https://map.psu.edu/?id=1134#!m/11341044",
      "hours": {
-      "mon": [
+      "tue": [
        "07:00",
        "23:00"
       ]
      },
      "busy": {
-      "mon": [
-       [
-        "20:00",
-        "23:00"
-       ]
-      ]
+      "tue": []
      }
     }
    ]
